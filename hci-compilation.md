@@ -2,7 +2,9 @@ HCI Compilation
 ===============
 
 Begriffe
---------
+========
+
+**Chunking** = Aufteilung der Informationen in (7-er) Blöcke (7 wegen KZG)
 
 **Effizienz** = Möglichst geringe Anzahl an Interaktionen, ressourcenschonend (z.B. Zeit)
 
@@ -12,8 +14,10 @@ Begriffe
 
 **Heuristiken** = "Faustregeln" Werden dort eingesetzt, wo eine komplette Analyse zu aufwändig wäre.
 
+**Kognition** = menschliche Informationsverarbeitung (Erkennen, Durchdenken, Anwenden...)
+
 Usability / Gebrauchstauglichkeit
----------------------------------
+=================================
 
 "Ist das Ausmaß, in dem ein Produkt
 
@@ -29,14 +33,28 @@ zu erreichen."
 
 Ziel ist eine **effektive und effiziente** Interaktion.
 
-### Kriterien
+Kriterien
+---------
 
 -	Aufgabenangemessenheit
 -	Lernförderlichkeit
 -	Fehlertoleranz
 -	Selbstbeschreibungsfähigkeit
+-	Effektivität und Effizienz
+	-	Tastenkürzel
+	-	Expertenfunktionen
+	-	Navigationspfade
+	-	Transformationsdistanzen(Handlungsmodelle)
+-	Normans 10 Heuristiken
+-	Gestaltungsgrundsätze nach DIN 9241-110 ("ASSEFIL")
+-	Shneidermans 8 goldene Regeln
+-	Entlastung des Benutzers
+	-	Entlastung der Augen
+	-	Entlastung von KZG und LZG
+	-	Fehlervermeidung und Korrekturunterstützung
 
-### warum Usabilty?
+warum Usabilty?
+---------------
 
 -	größere Akzeptanz
 -	weniger Nachbesserungen
@@ -49,7 +67,7 @@ Ziel ist eine **effektive und effiziente** Interaktion.
 *Aber: Usability kostet! (Expertenevaluation (theoriebasiert) deutlich günstiger als Benutzerevaluation)*
 
 User Experience / Nutzungserlebnis
-----------------------------------
+==================================
 
 Berücksichtigung weiterer Attribute:
 
@@ -67,9 +85,10 @@ Ziel ist eine **angenehme, effektive und effiziente** Interaktion.
 ---
 
 Kategorisierung von Benutzern
------------------------------
+=============================
 
-### Aspekte der Kategorisierung
+Aspekte der Kategorisierung
+---------------------------
 
 -	Wissen und Erfahrung
 -	Physische und psychische Grundfähigkeiten
@@ -85,9 +104,10 @@ Kategorisierung von Benutzern
 	-	wie "cool" ist es die Software zu benutzen
 -	...
 
-### Benutzerklassen (HCI)
+Benutzerklassen (HCI)
+---------------------
 
-#### Gelegenheitsbenutzer
+### Gelegenheitsbenutzer
 
 -	Nutzen die Software in Einzelfällen
 -	mit teilweise großem zeitlichen Abstand
@@ -99,7 +119,7 @@ Beispiele:
 -	Nutzer der Onlinehilfe bei Druckerstörungen
 -	Versicherungsnehmer bei Online-Vertragsabschluss
 
-##### Anforderungen des Gelegenheitsbenutzers an die Schnittstelle
+#### Anforderungen des Gelegenheitsbenutzers an die Schnittstelle
 
 -	"Benutzer ohne Gedächtnis"
 -	Hilfetexte, Assistenten, am besten kontextsensitiv
@@ -108,7 +128,7 @@ Beispiele:
 -	Rücknahmemöglichkeit für jeden Schritt
 -	Schneller Ausstieg
 
-#### Ungeübter Benutzer
+### Ungeübter Benutzer
 
 -	Anfänger
 -	wollen und müssen sich einarbeiten / lernen
@@ -121,14 +141,14 @@ Beispiele:
 -	Neuer Mitarbeiter im Bereich (Lager, Disposition, Verwaltung...)
 -	Alle Anwender nach Softwarewechsel
 
-##### Amforderungen des ungeübten Benutzers an die Schnittstelle
+#### Amforderungen des ungeübten Benutzers an die Schnittstelle
 
 -	vereinfachter Funktionsumfang für den Einstieg
 -	Tutorials, Lernunterstützung
 -	Unterstützung des Learning-by-Doing durch Hinweise
 -	Unterstützung beim Erwerb eines korrekten mentalen Modells vom System
 
-#### Routinebenutzer
+### Routinebenutzer
 
 -	Erfahrung durch regelmäßige intensive Programmnutzung für gleichartige Aufgaben
 -	gesichertes Verständnis des Programms
@@ -137,7 +157,7 @@ Beispiele:
 -	nicht unbedingt am Weiterlernen interessiert
 -	hassen Veränderungen, denn das macht sie wieder zum Anfänger
 
-##### Amforderungen des Routinebenutzers an die Schnittstelle
+#### Amforderungen des Routinebenutzers an die Schnittstelle
 
 -	schneller Programmstart
 -	bekannte Funktionen möglichst effizient anbieten (Shortcuts)
@@ -145,7 +165,7 @@ Beispiele:
 -	Hinweis auf Neuerungen
 -	stabile Benutzerschnittstelle
 
-#### Experte
+### Experte
 
 -	Interesse am Programm über den unmittelbaren Arbeitszweck hinaus
 -	Freude am Erkunden neuer Funktionen und Möglichkeiten
@@ -157,14 +177,15 @@ Beispiele:
 -	Supportmitarbeiter
 -	Freaks
 
-##### Anforderungen des Experten an die Schnittstelle
+#### Anforderungen des Experten an die Schnittstelle
 
 -	erkennbares, stimmiges implementiertes Modell
 -	Unterstützung bei der systematischen Erkundung
 -	spezielle Hilfe oder Fachbücher, Foren
 -	zusätzliche Konsolenschnittstelle sehr beliebt
 
-### Benutzerprofile
+Benutzerprofile
+---------------
 
 -	charakterisieren Benutzergruppen
 -	Aggregation eines Benutzerspektrums (eines Systems)
@@ -192,7 +213,8 @@ Profile sollten nach dem Aggregationskriterium benannt werden, z.B. Berufsnutzer
 
 **möglichst grobe Bewertungsskalen zur Typbildung verwenden:** z.B. "täglich / wöchentlich / gelegentlich / selten"
 
-### Personas
+Personas
+--------
 
 -	künstlich konstruierte, fiktive Benutzer, aus erhobenen Daten konstruiert
 -	**illustrieren einzelne Benutzerprofile**
@@ -210,7 +232,8 @@ Beispiele weiterer Aspekte:
 -	Technologiebezug allgemein
 -	Technologienutzung am konkreten Beispiel
 
-### User Stories
+User Stories
+------------
 
 -	beschreiben situationsbezogene Benutzeranforderungen
 -	Anwendungswunsch aus der Sicht **eines** Benutzers
@@ -227,29 +250,39 @@ Beispiel:
 
 > Fritz war gestern im Theater und hatte sein Handy nicht ausgestellt. Als es klingelte, hat er vor Aufregung sehr lange gebraucht, bis er es zum Schweigen gebracht hatte. Peinlich!
 
-#### Vorteile von User Stories
+### Vorteile von User Stories
 
 -	Karteikartenformat, kleine Einheiten
 -	leicht zu sortieren (nach Priorität, Schwierigkeit)
 -	leicht zu kommentieren
 -	ergeben direkt Testfälle
 
-#### User Stories vs. Use Cases (Anwendungsfälle)
+### User Stories vs. Use Cases (Anwendungsfälle)
 
 User Stories haben im Gegensatz zu Use Cases keine vorgegebene Form und bieten die Möglichkeit einen Anwendungsfall leichtgewichtiger und agiler zu modellieren.
 
 ---
 
 Usability Engineering
----------------------
+=====================
+
+Usability-Engineering-Zyklus
+----------------------------
+
+-	**Anforderungen** aus Nutzungszweck und -kontext erfassen
+-	**Anforderungen** der Benutzergruppen erfassen
+-	**Gesamtlösungen** entwerfen
+-	Lösungsentwürfe gegenüber Anforderungen **evaluieren**
+-	**Iterieren**, bis das Evaluationsziel erreicht ist.
 
 ![](img/ue_phasen2.jpg)
 
-### Phasen des Usability Engineering
+Phasen des Usability Engineering
+--------------------------------
 
 ![Phasen des UE](img/ue_phasen.jpg)
 
-#### 1. Analysephase
+### 1. Analysephase
 
 Analyse der Benutzeranforderungen parallel zur funktionalen Systemanalyse
 
@@ -278,23 +311,23 @@ bzw. wie viele
 
 es gibt.
 
-#### 2. Konzeptphase / Konzeptionsphase
+### 2. Konzeptphase / Konzeptionsphase
 
 Interaktionsneutrale Konzeption der Systemfunktionalitäten (Use Cases)
 
-##### Use Cases / Anwendungsfälle
+#### Use Cases / Anwendungsfälle
 
 -	klassische Anforderungsmodellierung
 -	umfassend, durchdacht und konstruiert, abgeschlossen
 -	aus der Aufgabenstellung abgeleitet
 
-##### Interaktionskonzeption und -Evaluation
+#### Interaktionskonzeption und -Evaluation
 
 -	Kartenmodell (Card Sorting)
 -	Papierprototypen (Fokusgruppen)
 -	genereller Prototyp (Click-Mockup) für Usability-Test
 
-##### Fragestellungen
+#### Fragestellungen
 
 -	Interaktionsmöglichkeiten für **häufige** Aufgaben
 -	Interaktionsmöglichkeiten für **seltenere** Aufgaben
@@ -304,12 +337,12 @@ Interaktionsneutrale Konzeption der Systemfunktionalitäten (Use Cases)
 -	Einbindungsmodus für (spätere) **Add-ons** und Module
 -	**Prozess- und Arbeitsplatzänderungen**
 
-#### 3. Entwicklungsphase
+### 3. Entwicklungsphase
 
 -	Implementierungen des Papierprototypen oder Click-Mockups
 -	**Evaluationstechnik** = Expertenevaluation
 
-#### 4. Einführungsphase
+### 4. Einführungsphase
 
 -	Pilotbetrieb
 
@@ -327,34 +360,37 @@ Interaktionsneutrale Konzeption der Systemfunktionalitäten (Use Cases)
 	-	Anregungen für weitere Add-Ons und Module
 
 Evaluation
-----------
+==========
 
-### Voraussetzungen
+Voraussetzungen
+---------------
 
 -	Definiertes Ziel
 -	Definierte Annahmen
 -	Definierte Methodik
 -	Klares Kosten-Nutzen-Verständnis
 
-### Einordnung in den Entwicklungsprozess
+Einordnung in den Entwicklungsprozess
+-------------------------------------
 
-#### formative Evaluation
+### formative Evaluation
 
 > Hier findet am meisten HCI statt
 
 -	Evaluation eines **geplanten** Produkts
 -	Entwurfs- und Entwicklungsbegleitend
 
-#### summative Evaluation
+### summative Evaluation
 
 > Bilanz über alle Features
 
 -	Evaluation eines **fertigen** Produkts
 -	Einhaltung der geforderten Usability-Qualität
 
-### Evaluationstechniken
+Evaluationstechniken
+--------------------
 
-#### Überblick
+### Überblick
 
 -	Theoriebasierte Evaluation
 
@@ -384,7 +420,7 @@ Evaluation
 		-	(Feld-)Studie
 		-	Ethnographie
 
-#### Heuristische Evaluation (nach Nielsen)
+### Heuristische Evaluation (nach Nielsen)
 
 -	**Mehrere Usabilty-Experten** bewerten ein System aufgrund einfacher und allgemeiner Heuristiken. **Einfach und kostengünstig!** Es ist jedoch **einiges Anwendungswissen nötig.**
 
@@ -399,58 +435,58 @@ Evaluation
 
 -	*Mit 5 Evaluatoren / Evaluationen werden 75% der Mängel gefunden*
 
-##### Ablauf
+#### Ablauf
 
 1.	Input sammeln
 2.	Evaluation des Systems
 3.	Sammeln und Auswertung
 4.	Bewerten der Ergebnisse
 
-##### Benutzbarkeitsheuristiken nach Nielsen:
+#### Benutzbarkeitsheuristiken nach Nielsen:
 
 (Erklärungen aus [http://glossar.hs-augsburg.de/Heuristische_Evaluation)](http://glossar.hs-augsburg.de/Heuristische_Evaluation)\) (Andere Heuristiken möglich, z.B. Gestaltungskriterien nach ISO 9142-110...)
 
-###### 1. Sichtbarkeit des Systemstatus
+##### 1. Sichtbarkeit des Systemstatus
 
 Das System sollte dem User mit angebrachten Infos fortwährend mitteilen was geschieht.
 
-###### 2. Übereinstimmung zwischen System und der realen Welt
+##### 2. Übereinstimmung zwischen System und der realen Welt
 
 Das System sollte in Wort und Phrase die Sprache der Anwender sprechen und nicht zu systemorientiert sein
 
-###### 3. Benutzerkontrolle und Freiheit
+##### 3. Benutzerkontrolle und Freiheit
 
 Da User öfter mal Fehler machen, sollte das System hierfür "Emergency Exits" haben, sowie Undo- und Redo-Funktionen
 
-###### 4. Konsistenz und Einhaltung von Standards
+##### 4. Konsistenz und Einhaltung von Standards
 
 Das System sollte Konsistent sein und bestimmten Standards folgen, damit sich der User immer zurechtfindet
 
-###### 5. Fehlervermeidung
+##### 5. Fehlervermeidung
 
 Besser als jede gute Fehlermeldung ist die Vermeidung von Fehlern
 
-###### 6. Wiedererkennen anstelle von Erinnern
+##### 6. Wiedererkennen anstelle von Erinnern
 
 Die Bedienung sollte soweit es geht selbsterklärend sein ohne das sich der User groß erinnern muss. Auch sollte er sich nicht Informationen von einem Dialog für einen anderen merken müssen.
 
-###### 7. Flexibilität und Effizienz
+##### 7. Flexibilität und Effizienz
 
 Für erfahrene User sollte es Abkürzungen geben die das Arbeiten mit dem System beschleunigen. Die „Shortcuts“ sollten allerdings Anfänger nicht verwirren. User sollten sich auch von ihnen häufig verwendete Funktionen speziell zurechtlegen können.
 
-###### 8. Ästhetisches und minimalistisches Design
+##### 8. Ästhetisches und minimalistisches Design
 
 Dialoge sollten notwendige Informationen enthalten. Jede zusätzliche Information lenkt nur von den Fakten ab und hält den Benutzer auf.
 
-###### 9. Hilfe für den Benutzer um Fehler wahrzunehmen, zu erkennen und zu beheben
+##### 9. Hilfe für den Benutzer um Fehler wahrzunehmen, zu erkennen und zu beheben
 
 Fehlermeldungen sollten in verständlicher Sprache sein, das Problem genau beschreiben und Lösung vorschlagen
 
-###### 10. Hilfe und Dokumentation
+##### 10. Hilfe und Dokumentation
 
 Selbst wenn der User für die Nutzung des System keinerlei Unterstützung bedarf, sollte es doch, gerade bei komplexen Interfaces, gute Dokumentation geben die in die Struktur integriert sind. Eine Hilfe an entsprechender Stelle sollte sowohl kontextabhängig als auch verständlich verfasst sein und konstruktive Lösungsansätze bieten.
 
-#### Cognitive Walkthrough
+### Cognitive Walkthrough
 
 -	Benutzbarkeits-"Gedankenexperiment"
 -	naives Benutzerverhalten verschiedener **fiktiver Benutzer (Personae)**
@@ -459,24 +495,24 @@ Selbst wenn der User für die Nutzung des System keinerlei Unterstützung bedarf
 -	Durchführung ausgewählter Szenarien anhand eines konkreten Testplans
 -	systematisches Protokoll
 
-##### Vorbereitung
+#### Vorbereitung
 
 -	Detaillierte Beschreibung der **Personae** und **Szenarien**
 -	Liste der möglichen Aktionen / Lösungswege
 -	Mockup / Prototyp / Installation des Systems
 
-##### Arbeitsannahmen
+#### Arbeitsannahmen
 
 -	Benutzer sucht die erforderlichen Funktionen
 -	Benutzer ist frei in der Wahl der Funktionen
 
-##### Fragen
+#### Fragen
 
 -	Auffindbarkeit der Funktionen
 -	Handhabbarkeit des Systems
 -	Verständnis des Feedbacks
 
-#### Benutzerstudie
+### Benutzerstudie
 
 Vorbedingungen:
 
@@ -487,7 +523,7 @@ Vorbedingungen:
 -	Metriken und Auswertungsverfahren: Quantifizierbarkeit?
 -	Qualität: Pilottest <--> Untersuchung
 
-##### Beobachtung
+#### Beobachtung
 
 -	im Labor oder in der realen Umgebung
 	-	**reale Umgebung**: Feldstudie, Ethnographie
@@ -506,7 +542,7 @@ Die Datensammlung erfolgt durch:
 
 grundsätzlich ist alles sammelnswert.
 
-###### reale Umgebung: Feldstudie
+##### reale Umgebung: Feldstudie
 
 -	**strukturierte Beobachtung**
 -	Ziele und Beobachtungsgegenstände vorher festlegen
@@ -525,7 +561,7 @@ Vorteile der Feldstudie:
 -	wiederholbar
 -	Ergebnis garantiert
 
-###### reale Umgebung: Ethnographie
+##### reale Umgebung: Ethnographie
 
 -	**unvoreingenommene Beobachtung**
 -	keine im voraus festgelegte Struktur
@@ -537,7 +573,7 @@ Vorteile der Ethnographie:
 -	unerwartetes wird entdeckt
 -	natürliche Strukturen werden erkennbar
 
-###### Beobachtungstechniken
+##### Beobachtungstechniken
 
 -	Beobachtungsprotokoll
 -	Videoaufzeichnung
@@ -546,9 +582,9 @@ Vorteile der Ethnographie:
 -	Ethnographie
 	-	"Eindrücke aus der Beobachtung?"
 
-##### Befragung
+#### Befragung
 
-###### Generelles
+##### Generelles
 
 -	Fragen sehr sorgfältig vorbereiten, weniger ist mehr
 -	Testen mit Testbenutzern (Verständlichkeit, Umfang, Motivation)
@@ -556,7 +592,7 @@ Vorteile der Ethnographie:
 -	Zielgruppe wählen
 -	**Zielfrage: Was will ich herausbekommen?**
 
-###### Umfrage / Fragebogen
+##### Umfrage / Fragebogen
 
 -	Große Probandenanzahl
 -	Mischung aus geschlossenen und offenen Fragen
@@ -566,7 +602,7 @@ Vorteile der Ethnographie:
 -	Gut auszuwerten
 -	Nachhaken nicht möglich
 
-###### Interview
+##### Interview
 
 -	Besonders aufwändig
 -	kleine Probandenzahl
@@ -581,12 +617,286 @@ Vorteile der Ethnographie:
 ---
 
 Benutzerfähigkeiten
--------------------
+===================
 
-Kommunikationsparadigmen
+Arten
+-----
+
+-	Primär
+	-	Sehen
+	-	Motorik
+	-	Gedächtnis
+-	Sekundär
+	-	Hören
+	-	Sprechen
+-	Spezialisiert
+	-	Musikalische Fähigkeiten (Midi-Einspielungen)
+	-	Graphische Fähigkeiten (Feinmotorik am Tablett)
+	-	Handwerkliche Fähigkeiten
+
+Gedächtnis und Kognition
 ------------------------
 
-### Als was erscheint mir der Computer?
+-	Gedächtnisforschung ist Teil der Psychologie
+	-	daher "psychische Benutzereigenschaft"
+
+![Human Information Processing - Wickens 1984](img/hip_wickens.jpg)
+
+### Gedächtnisarten
+
+#### Sensorisches Gedächtnis
+
+-	"Kurzzeit-Sensorik-Speicher"
+-	ikonischer Speicher (12 Chunks, 0,5 sec Persistenz)
+	-	visuelle Informationen
+-	echoischer Speicher (bis 5 sec. Persistenz)
+	-	auditive Informationen
+
+**Filter für Übergang in KZG:** Lenkung der Aufmerksamkeit
+
+#### Kurzzeicht-Gedächtnis (KZG)
+
+-	Arbeitsspeicher
+-	7 +/- 2 Chunks, 15-30 sec.
+-	störungsanfällig
+-	Informationsverlust durch Überlastung
+-	auffrischbar durch Wiederholung
+
+**Filter für Übergang in LZG:** Lernen
+
+#### Langzeicht-Gedächtnis (LZG)
+
+-	Unbegrenzte Kapazität und Persistenz (100 TB)
+-	Assoziatives Wissensnetz
+-	Zugriffszeit 8 sec. / Chunk
+-	Zugang zum Wissensnetz via **Recall / Recognition**
+
+Visuelle Wahrnehmung
+--------------------
+
+Das **Sehvermögen** ist rein physisch, während die **visuelle Wahrnehmung** als ganzes ein zum Teil kognitiver Prozess ist.
+
+Die **visuelle Wahrnehmung ist:**
+
+-	**Unbewusste** Vorverarbeitung
+-	Erkennen bekannter **Strukturen**
+-	**Vorsortierung** der visuellen Information
+-	Unterdrückung von **Dauerreizen** (Hintergrundstrukturen)
+
+### Das Auge
+
+-	Sehfeld zentral unterhalb der Mitte
+-	Schärfelücke am seitlichen Rand
+-	Farbwahrnehmung ist adaptionsabhängig
+	-	Farben sind nur bei Helligkeit wahrnehmbar
+	-	"nachts sind alle Katzen grau"
+	-	Adaption und Farbwahrnehmung "altern" deutlich
+
+#### Probleme mit Farbe
+
+Weniger als 5% der Sehzellen sind Zäpfchen (Farbsehen)
+
+Farben werden unterschiedlich fokussiert. Das führt zu einem Schärfeproblem. **Blau wird am stärksten gebrochen, Rot am wenigsten. Daher niemals Blau-Rot Kontrast einsetzen!**
+
+![Auge](img/auge1.jpg)
+
+Ausserdem sollte eine Darstellung auch immer in s/w erkennbar sein (hoher s/w Kontrast). ![fehlender s/w Kontrast](img/farbe1.jpg)
+
+Kräftige Farben und hohe Kontraste können zu einem **komplementärfarbigen Nachhall** führen. Dieser ist unangenehm und zu vermeiden.
+
+![Komplementärnachhall](img/farbe2.jpg)
+
+Ebenfalls benötigen **feine Strukturen einen hohen S/W Kontast**.
+
+![](img/farbe3.jpg)
+
+#### Sehfeld
+
+Das **zentrale Sehfeld** sollte **optimal ausgenutzt** werden. Der **untere Rand** eignet sich gut für **Statusmeldungen/Infos.**
+
+![Sehfeld](img/sehfeld1.jpg)
+
+![Sehfeld](img/sehfeld2.jpg)
+
+#### Eingeschränktes Sehvermögen
+
+-	aufgrund von Alterung / Erkrankung / Sehschwäche
+-	aufgrund von Umgebungsbedingungen
+-	Kontrast gleicht Schärfemangel aus
+-	Möglichst keine Farbschrift, niemals auf farbigem Hintergrund
+-	**Rot-Grün Kontrast vermeiden, niemals zentral sinntragend einsetzen!**
+-	Adaption entlasten
+-	zentrales Sehfeld optimal nutzen
+
+Hören
+-----
+
+-	Ohren sind
+	-	nicht ausrichtbar
+	-	nicht schließbar
+-	akustische Reize sind immer da und mischen sich
+-	Geräusche summieren sich zu Lärm
+-	Für "Normalnutzer" vorbehalten für wenige wichtige Signaltöne
+-	Für blinde Nutzer das Hauptmedium
+	-	Mischung zwischen vorgelesenen Inhalten und akustischen Inhalten oft schwierig
+-	In bestimmten Nutzungskontexten vorrangig (Navi)
+-	**akustische Elemente sparsam einsetzen!**
+
+Motorik (Hände)
+---------------
+
+Eingabe über Handmotorik (Tastaturen und Zeigegeräte).
+
+Die Alternative dazu wäre Sprach- Ein/Ausgabe für:
+
+-	Menschen mit Behinderungen
+-	Bedienug während manueller Arbeit
+-	in Situationen, in denen eine manuelle Bedienung nicht geeignet ist
+	-	Lebensmittelverarbeitung, Diagnostik
+
+### Effizienz von Eingaben
+
+#### Fitt´s Law
+
+Aufwand der **Mauspositionierung** hängt von **Mausweg** und **Größe des Ziels** ab
+
+> "...Es besagt, dass die benötigte Zeit, um eine Zielfläche zu erreichen, eine Funktion der Distanz zu dieser Fläche und deren Größe ist. Erreichen bedeutet hier, einen motorischen Akt, z.B. das Berühren eines Punktes mit der Hand, dem Finger oder einem Stift – zu Zeiten Fitts'..." - [wikipedia](http://de.wikipedia.org/wiki/Fitts’_Gesetz)
+
+#### Hick´s Law
+
+Der **Aufwand einer Auswahl** hängt von der Zahl der **Entscheidungsschritte** und der Zahl der **Alternativen** ab.
+
+#### GOMS-Aufwandseinschätzung
+
+Goals, Operators, Methods and Selection Rules
+
+![GOMS-Modell, Zeiten für einzelne Aktionen](img/goms1.jpg)
+
+### Tastaturinteraktion - Mausalternativen
+
+-	**Funktionstasten**
+	-	**\+** Beschleuniger
+	-	**\-** Lernaufwand, reduzierbar durch Belegungsaufkleber, Mousepads...
+-	**Tastenkombinationen**
+	-	**\+** Mnemonik möglich --> LZG-entlastend
+	-	**\-** einige Kombinationen sind motorisch schwierig
+-	**Navigation: Cursorblock, Pfeiltasten, Tabulator**
+	-	**\+** effizient, sollten immer als Alternativen angeboten werden
+	-	**\+** auch aus Gründen der Barrierefreiheit
+
+---
+
+Interfacegestaltung
+===================
+
+Generelles
+----------
+
+### Benutzerorientierte Gestaltung
+
+-	**Zielgruppenorientierung**
+	-	Benutzerprofile und Personas
+	-	Kommunikationsparadigmen
+	-	zielgruppengerechtes konzeptuelles Modell (Vorwissen, Fachlichkeit)
+-	**Orientierung am Benutzungskontext**
+	-	Einsatzsituation(z.B. Staub, Lärm, Ablenkung, Zeitdruck, Kritikalität)
+	-	Art der Geräte (z.B. Bildschirmgröße, Touch oder Maus)
+	-	Auswahl geeigneter Interaktionshardware und -formen
+-	**Einbeziehung der Benutzer (oder Orientierung an Personas)**
+	-	Menü- und Funktionsstruktur (Card Sorting)
+	-	Entscheidung über primäre und sekundäre Funktionen
+	-	Verständliche / fachgerechte Struktur und Naviation
+	-	Vorerfahrung mit anderer Software, Vorlieben
+-	**Barrierefreiheit**
+
+### Allgemeine Gestaltungsregeln
+
+-	**Gleichförmigkeit** der Gestaltung
+-	Sichtbarkeit des **Systemzustands**
+-	**Affordanz** (und nicht-Modalität)
+	-	> "...ist die von einem Gegenstand – offensichtlich vorhandene oder tatsächlich gegebene – angebotene Gebrauchseigenschaft für Subjekte (Mensch oder Tier)..." [wikipedia](http://de.wikipedia.org/wiki/Angebotscharakter)
+-	deutliche **Strukturierung**
+-	**Chunking** durch Schichtenbildung
+-	gut entschlüsselbare **Informationscodierung**
+-	offener Text (falls Text nötig)
+-	hinreichend große, gut unterscheidbare Bedienelemente
+-	keine Mauskilometer
+-	WIMP-Kriterien
+	-	**W** indows
+	-	**I** cons
+	-	**M** enus
+	-	**P** ointing device
+-	**harmonischer Farbeinsatz**
+
+#### Gestaltung mobiler Anwendungen
+
+-	**responsive** Design
+-	verständliche Struktur und Navigation
+-	möglichst viele **natürliche Gesten** (ohne visuelle Kontrolle)
+-	Eingabe durch Auswahl
+-	**Vermeidung** von **Texteingabe**
+-	Gestaltung an die Plattform angepasst
+-	Möglichst alle Bedienmodi gut unterstützen
+	-	Portrait, Landscape
+	-	Single-Handed, Double-Handed, Cradled
+
+### Text
+
+-	Text muss immer **hinreichenden Schwarz-Weiß Anteil** haben *Ich schätze sie mein Kontrast*
+-	**Positivdarstellung** im hellen Raum
+-	**Negativdarstellung** im dunklen Raum
+-	Monitor als **Lichtquelle** nicht unterschätzen!
+
+Gestaltgesetze
+--------------
+
+### Gesetz der Nähe und Ähnlichkeit
+
+![Nähe und Ähnlichkeit](img/gg_nae.jpg)
+
+#### Nähe
+
+*Dinge, die räumlich nahe beieinander liegen, werden von unserer Wahrnehmung gruppiert, also als zusammengehörig aufgefaßt. Dinge, die weit voneinander entfernt liegen, werden als getrennt und unabhängig wahrgenommen.* - [kommdesign.de](http://www.kommdesign.de/texte/gestaltpsychologie1.htm)
+
+**Bsp:**
+
+-	Eingabefelder und Beschriftung nahe zusammen
+-	Gruppierung (Chunking) von zusammengehörigen Informationen durch Nähe
+-	Trennung von unterschiedlichen Informationen durch Abstand
+
+#### Ähnlichkeit
+
+*Dinge, die ähnlich sind, werden von unserer Wahrnehmung gruppiert, also als zusammengehörig aufgefaßt. Umgekehrt werden Dinge, die sich in wichtigen Merkmalen unterscheiden, als voneinander getrennt oder unabhängig wahrgenommen.* - [kommdesign.de](http://www.kommdesign.de/texte/gestaltpsychologie1.htm)
+
+**Bsp:** Ähnliche Buttons für Menüs.
+
+**Negativbeispiel:** Wenig Unterschied zwischen Link und Text, kein Unterschied erkennbar und wird als eins wargenommen.
+
+### Gesetz der Geschlossenheit und Fortsetzung
+
+![Geschlossenheit und Fortsetzung](img/gg_gf.jpg)
+
+#### Geschlossenheit
+
+*Dinge mit geschlossenem Umriss oder Elemente, die von einer Linie umfaßt sind, werden von unserer Wahrnehmung gruppiert, also als zusammengehörig aufgefaßt. Dinge, die durch Linien getrennt sind, wirken nicht zusammengehörig.* - [kommdesign.de](http://www.kommdesign.de/texte/gestaltpsychologie1.htm)
+
+#### Fortsetzung
+
+*Dinge, die auf einer durchgehenden Linie oder Kurve angeordnet sind, werden von unserer Wahrnehmung gruppiert, also als zusammengehörig aufgefaßt.* - [kommdesign.de](http://www.kommdesign.de/texte/gestaltpsychologie1.htm)
+
+### Gesetz der Guten Form / Gestalt (Prägnanz)
+
+*ede Figur wird als möglichst einfache Struktur interpretiert. Die Wahrnehmung hat also eine Eigentendenz zu »Guten Gestalten«* - [robaweb.de](http://www.robaweb.de/gdm/inhalt/VisuelleWahrnehmung/Gestaltwahrnehmung/03-Gestaltgesetze.html#GesetzDerGutenGestalt)
+
+![Die rechte Figur hat eine höhere Prägnanz](img/GuteGestalt.gif)
+
+![Gesetz der guten Form / Prägnanz](img/gg_praegnanz.jpg)
+
+Kommunikationsparadigmen
+========================
+
+Als was erscheint mir der Computer?
+-----------------------------------
 
 -	Computer als **Arbeitsmittel (Ressource)**
 	-	der Mensch setzt den Computer ein
