@@ -639,8 +639,20 @@ Gedächtnis und Kognition
 
 -	Gedächtnisforschung ist Teil der Psychologie
 	-	daher "psychische Benutzereigenschaft"
+-	**Gedächtnis ist zentral für die Interaktion**
+	-	keine **Interaktion** ohne **Kognition**
+	-	keine **Kognition** ohne **Gedächtnis**
+
+**Kognition** steht für die menschliche Informationsverarbeitung (Erkennen, Durchdenken, Anwenden...)
 
 ![Human Information Processing - Wickens 1984](img/hip_wickens.jpg)
+
+### Das Gehirn
+
+-	vegetative Prozesse
+-	Sinneswahrnehmungen
+-	unbewusste Denkprozesse
+-	bewusste Denkprozesse
 
 ### Gedächtnisarten
 
@@ -652,17 +664,38 @@ Gedächtnis und Kognition
 -	echoischer Speicher (bis 5 sec. Persistenz)
 	-	auditive Informationen
 
+##### Filter
+
 **Filter für Übergang in KZG:** Lenkung der Aufmerksamkeit
+
+![Filter des sensorischen Gedächtnisses](img/sensGed_filter.jpg)
+
+**Wahrnehmungsfilter: Prägnanz**
+
+-	Es ist kein Dauerreiz (Sensorischer Filter)
+-	Reiz passt in den aktiven Kontext (KZG)
+-	Es gibt Vorwissen zum Reiz (LZG)
 
 #### Kurzzeicht-Gedächtnis (KZG)
 
--	Arbeitsspeicher
--	7 +/- 2 Chunks, 15-30 sec.
+-	Arbeitsgedächtnis / "Arbeitsspeicher"
+	-	Planung und Orientierung im Handlungsprozess
+-	**klein:** 7 +/- 2 Chunks
+-	**flüchtig:** 15-30 sec.
 -	störungsanfällig
 -	Informationsverlust durch Überlastung
 -	auffrischbar durch Wiederholung
 
 **Filter für Übergang in LZG:** Lernen
+
+##### Das KZG und Interaktion
+
+-	Warum ist bei der Gestaltung von Dialogen eine **Überlastung** des KZG zu **vermeiden**?
+	-	*störungsanfällig*
+-	Warum ist es wichtig, längere Menüs oder Listen zu **gruppieren**?
+	-	*Chunking zur Unterstützung des KZG*
+-	Warum sind **optische Gruppierungen** besser als nur Überschriften im Textfluss?
+	-	*Chunking, unterstützt durch die Wahrnehmung (Gestaltgesetze)*
 
 #### Langzeicht-Gedächtnis (LZG)
 
@@ -670,6 +703,68 @@ Gedächtnis und Kognition
 -	Assoziatives Wissensnetz
 -	Zugriffszeit 8 sec. / Chunk
 -	Zugang zum Wissensnetz via **Recall / Recognition**
+
+##### Assoziationen
+
+Der Zugriff auf Informationen findet über Assoziationen statt. Assoziationen sind sozusagen der Schlüssel zu Informationen.
+
+-	je mehr
+-	je neuer
+-	je frequentierter
+
+diese Schlüssel sind, desto besser lassen sich die verknüpften Informationen abrufen. Schlüssel kann man verlegen, aber gute Schlüsselanhänger sind z.B. Eselsbrücken, Klänge, Bilder, Emotionen. (sind eigentlich wiederum eigene Schlüssel). Assoziationen verblassen, sind aber reaktivierbar.
+
+###### Recall
+
+Aktive Suche nach Assoziationen.
+
+###### Recognition
+
+(Re-)Aktivierung von Assoziationen.
+
+##### ACT-Modell
+
+"Adaptive Control and Thought" - Geht davon aus dass das LZG in einen **Deklarativen** und **Prozeduralen** Teil unterteilt ist.
+
+![ACT](img/act1.jpg)
+
+*Prozedurale Inhalte sind leichter abrufbar als deklarative.* -> Learning by Doing
+
+###### Deklaratives Gedächtnis
+
+-	Fakten
+-	Konzepte, Modelle
+-	Erlebnisse
+
+###### Prozedurales Gedächtnis
+
+leichterer Zugang
+
+-	Abläufe
+-	Klänge, Farben
+-	Emotionen
+
+### Konzentration
+
+Konzentration bedeutet **Bündelung der Aufmerksamkeitsressourcen**
+
+-	zielgerichtet koginitiv arbeiten
+-	optimale KZG-Leistung
+-	keine (wirksame) Störung
+
+**Bündelung der Aufmerksamkeitsressourcen ist Arbeit!** Erleichterung durch:
+
+-	KZG-Entlastung
+-	Störungsvermeidung
+
+### Lernen
+
+Ist die gezielte **Assoziationsbildung** und "-pflege". (Wiederholung, Eselsbrücken, alternative Darstellungen)
+
+-	Nutzung der **rechten Hirnhälfte**
+	-	prozedurales Gedächtnis, Affekte...
+-	Unterstützung der **linken Hirnhälfte**
+	-	gute, logische Strukturen -> klares mentales Modell
 
 Visuelle Wahrnehmung
 --------------------
@@ -779,6 +874,7 @@ Goals, Operators, Methods and Selection Rules
 	-	**\-** Lernaufwand, reduzierbar durch Belegungsaufkleber, Mousepads...
 -	**Tastenkombinationen**
 	-	**\+** Mnemonik möglich --> LZG-entlastend
+		-	Mnemonik bedeutet in diesem Fall z.B. ein Buchstabe zur schnellen Auswahl eines Eintrags aus einem Menü
 	-	**\-** einige Kombinationen sind motorisch schwierig
 -	**Navigation: Cursorblock, Pfeiltasten, Tabulator**
 	-	**\+** effizient, sollten immer als Alternativen angeboten werden
@@ -891,6 +987,8 @@ Gestaltgesetze
 ![Die rechte Figur hat eine höhere Prägnanz](img/GuteGestalt.gif)
 
 ![Gesetz der guten Form / Prägnanz](img/gg_praegnanz.jpg)
+
+> "...Die klassische Gestaltpsychologie formulierte mehrere Gestaltgesetze der Wahrnehmung. Eines davon ist das Gesetz der Prägnanz. Es besagt, dass in einer Vielzahl von Elementen jene zuerst wahrgenommen werden, die sich in einer oder mehreren Eigenschaften von den anderen abheben. In diesem Zusammenhang ist der Begriff Prägnanz mehr im Sinne von „Hervorgehobensein“ oder „Auffälligkeit“ zu verstehen..." - [wikipedia](http://de.wikipedia.org/wiki/Prägnanz)
 
 Kommunikationsparadigmen
 ========================
