@@ -990,6 +990,34 @@ Gestaltgesetze
 
 > "...Die klassische Gestaltpsychologie formulierte mehrere Gestaltgesetze der Wahrnehmung. Eines davon ist das Gesetz der Prägnanz. Es besagt, dass in einer Vielzahl von Elementen jene zuerst wahrgenommen werden, die sich in einer oder mehreren Eigenschaften von den anderen abheben. In diesem Zusammenhang ist der Begriff Prägnanz mehr im Sinne von „Hervorgehobensein“ oder „Auffälligkeit“ zu verstehen..." - [wikipedia](http://de.wikipedia.org/wiki/Prägnanz)
 
+---
+
+Mentale Modelle
+===============
+
+Mentale Modelle sind **strukturierte Vorstellungen** von einem Gebilde und dessen Verhalten. Sie bilden die **Grundlage der Kognition und Interaktion**
+
+### Wer besitzt Modelle?
+
+-	**Der (System-)Designer D**
+	-	*der Analytiker*
+	-	entwirft das **konzeptuelle Modell**
+	-	bildet es auf ein **funktionales Modell** der Software ab
+-	**Der Benutzer B**
+	-	*der Experte*
+	-	besitzt ein **mentales Modell** der Realität (Fachwissen)
+	-	erwirbt ein **mentales Modell** des Systems
+-	**Das System S**
+	-	*das implementierte Modell*
+	-	stellt ein **implementiertes Modell** von Realität und technischer Funktion dar
+	-	realisiert damit das Systemverhalten
+
+### Wovon?
+
+Immer vom **Arbeitsbereich A** (UoD, universe of discourse), Also **B(A), D(A), S(A)**
+
+Die entsprechenden Modelle müssen nicht zwangsläufig harmonieren. Nicht harmonierende Modelle führen zu Missverständnissen.
+
 Kommunikationsparadigmen
 ========================
 
