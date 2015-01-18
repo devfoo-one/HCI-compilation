@@ -1635,4 +1635,69 @@ WIMP Paradigma
 Informationscodierung
 =====================
 
-TODO: FILL ME
+Codierungsformen für visuelle Darstellungen
+-------------------------------------------
+
+### Überblick
+
+![Überblick über Codierungsformen](img/codierungsformen_1.jpg)
+
+### Die wichtigsten (Text, Farbe, Anordnung, Grafik)
+
+#### Text
+
+mächtigste Codierungsform mit der Fähigkeit nahezu **jede Information** zu repräsentieren.
+
+-	beliebige Informationsfülle
+-	Erfassen erfordert **kognitive Arbeit**
+-	**Struktur** unterstützt die gezielte Erfassung
+
+#### Farbe
+
+sehr wirksame Codierungsform, vor allem zur **Hervorhebung** bestimmter Informations**kategorien**
+
+##### Einsatzmöglichkeiten
+
+-	visualisieren von **Systemzuständen**
+-	**Hervorheben** zusammen gehöriger Inhalte
+-	**Markieren** von Bildschirmobjekten
+-	herstellen von **Informationsbeziehungen**
+-	**Trennen** von Informationskategorien
+-	**Aufgliedern** gleichartiger Informationen
+-	**Gliedern** langer Dialogabläufe
+
+##### Benutzung von Farbe
+
+Der Systementwurf sollte zunächst **voll funktionsfähig einfarbig** sein, da ca. 8% der Bevölkerung farbenblind ist.
+
+-	**sparsam** verwenden
+-	feste Bedeutung, **konsistent** einsetzen
+-	maximal **6 bedeutungstragende** Farben
+-	**nicht** zur Unterscheidung **kleiner Bildschirmobjekte**
+-	Farbbedeutungen (Bsp.):
+	-	Rot: Alarm
+	-	Gelb: Vorsicht
+	-	Grün: In Ordnung
+
+##### Probleme
+
+-	Kontrast
+-	Schärfe
+-	Standardbedeutungen
+-	Manipulationsmöglichkeiten durch Standardbedeutungen
+
+#### Anordnung
+
+Codierungsform auf der Basis der Gestaltgesetze zur Gruppierung und Isolation von Informationselementen. **Chunking** zur KZG-Entlastung.
+
+##### Probleme
+
+-	Manipulationsmöglichkeiten durch Fehlanordnung
+
+#### Grafik
+
+Codierungsform, vor allem zur **Visualisierung** komplexer oder umfangreicher Informationsmengen. Hohe Datenreduktion, gute Decodierbarkeit
+
+##### Probleme
+
+-	Manipulationsmöglichkeiten durch Skalierung (z.B. irreführende Diagrammachsen)
