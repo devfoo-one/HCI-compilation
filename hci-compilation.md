@@ -995,7 +995,15 @@ Gestaltgesetze
 Mentale Modelle
 ===============
 
-Mentale Modelle sind **strukturierte Vorstellungen** von einem Gebilde und dessen Verhalten. Sie bilden die **Grundlage der Kognition und Interaktion**
+Mentale Modelle sind **strukturierte Vorstellungen** von einem Gebilde und dessen Verhalten. Sie bilden die **Grundlage der Kognition und Interaktion** Verstehen, Entscheiden, Planen und Handeln geschiehtgrund von Vorstellungen, also mentalen Modellen.
+
+**Beispiel für Modellinkompatibilität:**
+
+*Du markierst eine Seite in MS-Word und stellt via Datei>Seite auf Querformat. Jetzt ist nicht nur die markierte Seite im Querformat, sondern das ganze Dokument*
+
+**Grund:**
+
+Das Dokument ist logisch nicht in Seiten eingeteilt, sondern in Abschnitte. Der Befehl bezieht sich auf den aktuellen Abschnitt.
 
 ### Wer besitzt Modelle?
 
@@ -1017,6 +1025,50 @@ Mentale Modelle sind **strukturierte Vorstellungen** von einem Gebilde und desse
 Immer vom **Arbeitsbereich A** (UoD, universe of discourse), Also **B(A), D(A), S(A)**
 
 Die entsprechenden Modelle müssen nicht zwangsläufig harmonieren. Nicht harmonierende Modelle führen zu Missverständnissen.
+
+### Verschiedene mentale Modelle
+
+Wir unterscheiden **konstruierte oder konzeptuelle** und **erworbene** Modelle.
+
+![Mentale Modelle](img/mentaleModelle1.jpg)
+
+#### konstruierte / konzeptuelle Modelle
+
+-	entstehen durch Konstruktion oder Entwurf
+-	Gestaltung einer neuen Realität
+-	Vorwegnahme oder Planung
+
+Als Arbeitsgrundlage bildet das konzeptuelle Modell:
+
+-	die **Grundlage des Interaktionsentwurfes**
+-	die **Grundlage für das Benutzerverständnis**
+
+Ein **gutes konzeptuelles Modell:**
+
+-	hat **wenige** und benutzernahe Konzepte und Metaphern
+-	**klare** Beziehungen zwischen den Konzepten mit möglichst wenigen Ausnahmen
+-	ist **erweiterbar** in der voraussichtlichen Entwicklungsrichtung
+
+***Die Qualität des konzeptuellen Modells ist entscheidend für die Gebrauchstauglichkeit der Benutzerschnittstelle!***
+
+#### erworbene Modelle
+
+-	entstehen durch Lernen und Erfahrung
+-	ermöglichen den Umgang mit der Realität
+-	werden durch Lernen erweitert und korrigiert
+
+### Aufgabe der Usabilty im Bezug auf Mentale Modelle
+
+Ziel der Usabilty ist es konzeptuelle Modelle kompatibel zu initialen Modellen der Benutzer zu entwickeln und diese konzeptuellen Modelle dem Benutzer kommunizieren. Dies kann über
+
+-	explizite Kommunikation
+	-	Tutorials
+	-	Hilfetexte
+	-	Erste Schritte
+-	implizite Kommunikation
+	-	durch das User Interface
+
+stattfinden.
 
 Kommunikationsparadigmen
 ========================
