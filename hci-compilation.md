@@ -1078,23 +1078,6 @@ Ziel der Usabilty ist es konzeptuelle Modelle kompatibel zu initialen Modellen d
 
 stattfinden.
 
-Kommunikationsparadigmen
-========================
-
-Als was erscheint mir der Computer?
------------------------------------
-
--	Computer als **Arbeitsmittel (Ressource)**
-	-	der Mensch setzt den Computer ein
--	Computer als **Werkzeug (Funktion oder Automat)**
-	-	der Mensch bedient den Computer
--	Computer als **Kommunikationspartner (Assistent, Partner, Überwacher oder Ausführender)**
-	-	der Mensch kommuniziert mit dem Computer
--	Computer als **Medium (Mittel zur Anwendungswelt)**
-	-	der Mensch interagiert mit über den Computer
--	Computer als **künstliche Realität (der Computer wird unsichtbar)**
-	-	der Mensch bewegt sich in einer künstlichen Welt
-
 GUI
 ===
 
@@ -1364,6 +1347,25 @@ Siehe Modell-Inkompatibilitäten bei mentalen Modellen
 -	Zerlegung, von der Idee bis zur Durchführung und Bewertung
 -	dargesellt als "Abstand"
 
+### Zusammenfassung Handlungsmodelle
+
+#### Wichtigste Fragestellungen für Prozess- und Handlungsmodelle
+
+-	Woher rühren Benutzungsfehler?
+-	Woher rührt ein erhöhter Benutzungsaufwand?
+
+-	**Benutzungsfehler**
+
+	-	kybernetisches Modell des regulierten Handlungsprozesses
+	-	kognitive, flexible und automatisierte Regulationsebene
+	-	Denkfehler, Gewohnheitsfehler, Treffgenauigkeitsfehler
+
+-	**Benutzungsaufwand**
+
+	-	Transformationsdistanzen (Modell der Klüfte)
+	-	Zeitliche Gliederung in Handlungsschritte (Norman-Modell)
+	-	Gliederung in Abstraktionsebenen (6-Ebenen-Modell)
+
 Modelltypen
 -----------
 
@@ -1411,8 +1413,226 @@ Fehler beeinträchtigen die Zufriedenheit des Benutzers. Ziel ist **Fehlervermei
 
 ### Modell der Klüfte (oder Transformationsdistanzen)
 
+Grundlage der meisten detaillierten Handlungsmodelle
+
+![Modell der Klüfte](img/handlungsprozess_kluefte_1.jpg)
+
+#### Transformationsdistanzen
+
+-	Schwierigkeit beim Übergang zur nächsten Handlungsebene
+-	in Pfeilrichtung
+-	Bezeichnet als Kluft oder **Transformationsdistanz**
+-	**glatter Übergang = keine Distanz**
+
+##### was tun bei der Lokalisierung erhöhter Transformationsdistanzen?
+
+entweder:
+
+1.	Modifikationskonzept
+2.	Handhabungs-Test
+3.	Umsetzung
+
+oder:
+
+-	Glättung des Übergangs durch Handbuch oder Hilfe
+
 ### Modell der 7 Handlungsschritte (Norman)
+
+![Modell der 7 Handlungsschritte](img/handlungsprozess_norman_1.jpg)
+
+#### Mögliche Schwierigkeiten beim Übergang in die nächste Handlungsebene (Kluft der Ausführung)
+
+![Norman - Kluft der Ausführung](img/handlungsprozess_norman_2.jpg)
+
+-	**2. Absicht formulieren**
+	-	zu wenig Kenntnis der Konzepte
+-	**3. Aktion planen**
+	-	zuwenig Kenntnis der Bedienung
+-	**4. Aktion ausführen**
+	-	unklare oder umständliche Bedienung
+-	**5. Zustand wahrnehmen**
+	-	Zustand nicht oder nur schwer erkennbar
+-	**6. Zustand interpretieren**
+	-	Darstellung nicht klar interpretierbar
+-	**7. Zustandsergebnis festlegen**
+	-	Zielerreichung kann nicht erkannt werden
 
 ### IFIP-Modell
 
+**IFIP** = International Federation for Information Processing
+
+Gliederung der Schnittstelle in **Abstraktionsebenen:**
+
+-	Organisationsschittstelle
+-	Werkzeugschnittstelle
+-	Dialogschnittstelle
+-	Ein-/Ausgabeschnittstelle
+
+Grundlage für die Standardisierung (Normung) von Gestaltungsgrundsätzen für Benutzungsschnittstellen.
+
 ### Das 6-Ebenen-Handlungs-Modell (nach M.Herczeg)
+
+1.	**Intentionale Ebene**
+	-	Ebene des Anwendungsgebiets und des Zwecks
+2.	**Pragmatische Ebene**
+	-	Ebene der Arbeitsziele und Verfahren
+3.	**Semantische Ebene**
+	-	Ebene der Arbeitsobjekte und Operationen
+4.	**Syntaktische Ebene**
+	-	Ebene der Ein- und Ausgaberegeln
+5.	**Lexikalische Ebene**
+	-	Ebene der Zeichen und der Alphabete
+6.	**Sensomotorische Ebene**
+	-	Ebene der Motorik und Sensorik
+
+Eine **minimale Wahrnehmung der Ebenen** bedeutet dass das System **optimal** an den Benutzer angepasst ist.
+
+![Handlungsmodell der 6 Ebenen](img/handlungsprozess_6ebenen_1.jpg)
+
+#### Transformationsdistanzen aufgrund von Behinderungen
+
+-	**motorische Behinderungen**
+	-	vorwiegend lexalische und sensomotorische Ebene betroffen
+	-	Erleichterungen auf der syntaktischen Ebene sind sinnvoll
+-	**Seheinschränkungen**
+	-	vorwiegend sensomotorische Ebene betroffen
+	-	Änderungen auf höheren Ebenen können die zu lesende Informationsmenge reduzieren
+-	**eingeschränkte Gedächtnisleistung**
+	-	vorwiegend syntaktische und semantische Ebene betroffen
+	-	Reduktion der Belastung durch Visualisierung, oder Reduktion auf pragmatischer Ebene
+
+---
+
+Paradigmen
+==========
+
+Kommunikationsparadigmen
+------------------------
+
+### Als was erscheint mir der Computer?
+
+-	Computer als **Arbeitsmittel (Ressource)**
+	-	der Mensch setzt den Computer ein
+-	Computer als **Werkzeug (Funktion oder Automat)**
+	-	der Mensch bedient den Computer
+-	Computer als **Kommunikationspartner (Assistent, Partner, Überwacher oder Ausführender)**
+	-	der Mensch kommuniziert mit dem Computer
+-	Computer als **Medium (Mittel zur Anwendungswelt)**
+	-	der Mensch interagiert mit über den Computer
+-	Computer als **künstliche Realität (der Computer wird unsichtbar)**
+	-	der Mensch bewegt sich in einer künstlichen Welt
+
+Interaktionsparadigmen
+----------------------
+
+### Kommandosysteme
+
+*Bsp: Terminal*
+
+-	Sehr effizient und ausdrucksmächtig
+-	optimal zielführend
+-	anpassbar / erweiterbar
+-	praktisch unbegrenzter Funktionsumfang
+-	besonders geeignet für:
+	-	variable, komplex zusammenhängende Funktionen
+	-	Anwendungsexperten
+	-	Erstellung "maßgeschneiderter" Funktionsmengen durch Admins
+	-	Test und Testgenerierung
+	-	Logging
+-	**Vorteile:**
+	-	benutzergeführt
+	-	unterstützt Parametrisierung und Makrobefehle
+	-	gut protokollierbar
+
+### Menü-Maskensysteme
+
+*Bsp: SAP-Eingabemaske, Steuerprogramm*
+
+-	**Vorteile:**
+	-	benutzergeführt
+	-	Entlastung des LZG durch Vorgaben
+	-	freie Navigation
+	-	wenig fehlerträchtig
+
+### Direkte Manipulation
+
+*Bsp: Photoshop*
+
+-	**Methaphorische Dialoge**
+
+	-	Arbeitsobjekt und Werkzeuge als **Metaphern** dargestellt
+		-	Büro
+		-	Grafikstudio / Retusche
+		-	Tonstudio
+		-	Setzerei / Layout
+		-	Leittechnik
+	-	Generische Werkzeuge - Anwendungsübergreifend
+	-	wysiwyg - unmittelbares Feedback
+	-	unmittelbares Undo
+
+-	**Vorteile:**
+
+	-	leicht erlernbar
+	-	geringe Transferanforderungen
+	-	Ergebnis unmittelbar sichtbar
+	-	Aktion intuitiv umkehrbar
+
+-	**Nachteile:**
+
+	-	keine Komplexoperationen möglich
+	-	Metaphernbildung wirkt manchmal gezwungen
+
+### Hypermedia / Navigation
+
+-	**mehrere Informationsebenene**
+	-	Netz
+	-	mehrere Wege zur Info
+-	**Probleme**
+	-	Orientierung
+	-	Suche
+	-	Navigation-Zielfindung
+
+#### Kriterien für gute Navigation
+
+Ein Benutzer kann gut navigieren, wenn er jederzeit folgende Fragen beantworten kann:
+
+-	Wohin kann ich gehen? Welche Wege gibt es hier?
+-	Wie komme ich dorthin?
+-	Wo bin ich schon überall gewesen?
+-	Wie komme ich wieder zurück? Wie kann ich meinen Weg zurückverfolgen?
+-	Wie komme ich hier schnell wieder heraus?
+
+### Belastung des LZG
+
+![Belastung des LZG](img/interaktionsparadigmen_lzg.jpg)
+
+### Belastung des KZG
+
+![Belastung des KZG](img/interaktionsparadigmen_kzg.jpg)
+
+WIMP Paradigma
+--------------
+
+![](img/wimp.jpg)
+
+### WIMP Interaktionselemente
+
+-	**Fenster**
+	-	Haupt, Unter- und Dialogfenster
+-	**Menüs**
+	-	Drop-down und Pop-up-Menüs
+-	**Widgets**
+	-	Knöpfe ("Schaltflächen" lt. MS-Terminologie)
+	-	Auswahllisten
+	-	Deiktische Werteingaben
+-	**Meldungen und Warnungen**
+-	**About-Boxen und Splash Screens**
+-	**Werkzeugleisten**
+-	**Hilfemenüs**
+
+---
+
+Informationscodierung
+=====================
+
+TODO: FILL ME
