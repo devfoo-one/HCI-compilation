@@ -4,6 +4,8 @@ HCI Compilation
 Begriffe
 ========
 
+**Affordanz** = *"...ist die von einem Gegenstand – offensichtlich vorhandene oder tatsächlich gegebene – angebotene Gebrauchseigenschaft für Subjekte (Mensch oder Tier)..."* [wikipedia](http://de.wikipedia.org/wiki/Angebotscharakter). Allein durch die Formsprache wird klar, welches Bedienelement wie zu benutzen ist.
+
 **Chunking** = Aufteilung der Informationen in (7-er) Blöcke (7 wegen KZG)
 
 **Effizienz** = Möglichst geringe Anzahl an Interaktionen, ressourcenschonend (z.B. Zeit)
@@ -15,6 +17,12 @@ Begriffe
 **Heuristiken** = "Faustregeln" Werden dort eingesetzt, wo eine komplette Analyse zu aufwändig wäre.
 
 **Kognition** = menschliche Informationsverarbeitung (Erkennen, Durchdenken, Anwenden...)
+
+**Modalität** = Ein Modus ist eine Einstellung die die Bedeutung von Kommandos verändert.
+
+**Semantik** = TODO: FILL ME
+
+**Skeuomorphismus** = Imitation realer Objekte (-> Metaphern)
 
 Usability / Gebrauchstauglichkeit
 =================================
@@ -1086,3 +1094,212 @@ Als was erscheint mir der Computer?
 	-	der Mensch interagiert mit über den Computer
 -	Computer als **künstliche Realität (der Computer wird unsichtbar)**
 	-	der Mensch bewegt sich in einer künstlichen Welt
+
+GUI
+===
+
+GUI Entwurf
+-----------
+
+### Grundregeln des GUI-Entwurfs
+
+-	**Gleichförmigkeit** der Gestaltung
+	-	einheitliche "Kultur" der Oberflächen
+		-	Gliederung, Raster und Positionierung
+		-	Farbschema
+		-	Größe und Gestaltung der Bedienelemente und Icons
+		-	Bedeutung der Bedienelemente und Icons
+-	**Sichtbarkeit** des Systemzustands
+-	**Affordanz** der Bedienelemente
+-	Nicht-Modalität
+-	**minimalistisches** Design
+	-	je einfacher ein GUI desto
+		-	*einladender*
+		-	*zugänglicher*
+		-	*verstehbarer*
+		-	*unmittelbarer*
+		-	*brauchbarer* wirkt es auf den Benutzer
+-	**Strukturiertheit**
+	-	Strukturrierung durch visuelle Grundparameter
+	-	Symmetrie, bekannte Strukturen, Gitter und Raster
+	-	Semantische Struktur
+-	**einheitliche Semiotik**
+	-	Sprache der Sinnbilder wie z.B. Icons, Navigationssymbole
+	-	Auswahl der Gestaltungsform (Strichzeichnung, Farbgrafik, Foto)
+-	**offener Text**
+	-	Beschriftung
+		-	Öffnung durch Kürze
+	-	Textblock
+		-	Öffnung durch Gliederung
+
+#### Umsetzung der Gleichförmigkeit
+
+-	**gleiche Interaktion hat gleiche Bedeutung**
+	-	in verschiedenen Programmen und Programmteilen
+-	**einheitliche Feedbackgestaltung**, etwa
+	-	*Selektion:* Highlighting
+	-	*Aktivierung:* Farbwechsel
+	-	*Bewegen:* Start und Ziel visualisieren
+
+##### In GUI-Anwendungen
+
+-	einheitliche Icons / **Funktionstasten**
+-	einheitliche Maushandhabung (z.B. Einfach- oder Doppelklick)
+-	einheitliche Tastenkürzel
+-	(äußere Konsistenz)
+
+##### In innovativen Interfaces
+
+-	einheitliche Gesten und Bewegungen
+-	einheitlicher Übergang zwischen realem und virtuellem Objekt
+
+#### Umsetzung von Sichtbarkeit und Affordanz
+
+Viele Computerspiele beziehen ihren Reiz daraus, dass der Spieler die richtige Aktion in einer Situation *rät*. **Allerdings wollen Anwender von Anwendungen nicht spielen und nicht raten**
+
+##### Sichtbarkeit
+
+-	der **Systemzustand** und die **verfügbaren Operationen** sind sichtbar (oder systematisch auffindbar)
+-	nicht verfügbare Operationen sind unsichtbar
+-	der Navigationszustand ist sichtbar
+	-	z.B. via Breadcrump
+
+##### Affordanz
+
+-	allein durch die *Formsprache* wird klar, welches Bedienelement wie zu benutzen ist.
+
+![Beispiel Affordanz](img/affordanz1.jpg)
+
+#### Umsetzung der Modi-Vermeidung / Nicht-Modalität
+
+-	**ein Modus ist eine Einstellung**
+	-	die die **Bedeutung von Kommandos verändert**
+	-	die explizit eingestellt und (zumeist) explizit aufgehoben wird
+	-	erfordert die Umstellung eine andauernde Betätigung, so spricht man von *semi-modal* oder *quasi-modal*
+		-	Bsp: Umschalttaste vs. Caps-Lock
+-	**Modi "sparen" Bedienelemente**
+	-	z.B. Umschalttaste auf der Tastatur
+-	**Modi sind fehlerträchtig**
+	-	Quasi-Modi sind besser
+	-	zur Vermeidung von Fehlern **Status auffällig visualisieren**
+
+#### Umsetzung von Strukturiertheit
+
+##### Grundparameter
+
+-	**Größe, Kontrast, Proportion**
+	-	stärkster unmittelbarer Eindruck
+	-	gezielt sinntragend oder -unterstützend einsetzen
+-	**Einsatzziele**
+	-	Unterscheidung / Wichtigkeit
+	-	Visuelle Schichtung
+	-	Fokus - Interesse (u. evtl. Emotionen) wecken
+	-	Benutzerblick führen
+
+##### Techniken
+
+-	**Schichten bilden**
+	-	Gruppen mit max. 7 Elementen bilden (Chunking)
+	-	Gruppen nach Wichtigkeit, Fokus, etc. einstufen
+	-	Visuelle Grundparameter nutzen, um die Einstufung zu visualisieren
+	-	es entstehen **Wahrnehmungsschichten**
+-	**Unterscheidung schärfen**
+	-	z.B. durch weitere Gemeinsamkeit in Gruppen oder gruppenübergreifend (Farbspektrum)
+	-	ggf. Merkmale hervorheben (z.B. Rechteck - Quadrat)
+-	**Vorder- und Hintergrund abstimmen**
+	-	Platzierung
+	-	Farbgebung
+	-	Rahmen, Linien
+
+GUI Prototypen
+--------------
+
+### wozu UI-Prototypen?
+
+Usability steht und fällt mit der UI-Gestaltung.
+
+-	iterative Entwicklung
+	-	Prototyp-Iterationen sind in **DIN EO ISO 9241-210** (Prozess zur Gestaltung gebrauchstauglicher interaktiver Systeme) festgeschrieben
+-	**Beteiligung von Benutzern**
+-	verschiedene Stufen der Genauigkeit
+-	Kleinigkeiten entscheiden oft über Akzeptanz
+
+### Evaluation von Prototypen
+
+Jeder Prototyp ist evaluierbar. Evaluiert wird entweder durch
+
+-	**Experten (Experten-Evaluation)**
+-	**Testbenutzer**
+	-	simulieren Anwendungsfälle und kommentieren ihr "Nutzungerlebnis"
+	-	bewerten ohne vorgegebene Kriterien ("Bauchgefühl")
+	-	beantworten gezielte Fragen (Interview, Fragebogen)
+
+**Je einfacher der Protoyp:**
+
+-	umso **besser fokussiert** er den Blick auf die essentielle Interaktion
+-	umso einfacher lässt er sich **unmittelbar bearbeiten**
+-	umso geringer ist die Scheu des Testers, **Änderungswünsche** zu äußern
+
+**High-Fidelity-Prototypen ermöglichen präzisere Bewertung.**
+
+### Low-Fidelity vs. High-Fidelity
+
+Prototypen lassen sich nach **Low-Fidelity** und **High-Fidelity** Prototypen einteilen.
+
+> **Low-fidelity prototypes** are often paper-based and do not allow user interactions. They range from a series of hand-drawn mock-ups to printouts. In theory, low-fidelity sketches are quicker to create. Low-fidelity prototypes are helpful in enabling early visualization of alternative design solutions, which helps provoke innovation and improvement. An additional advantage to this approach is that when using rough sketches, users may feel more comfortable suggesting changes.
+>
+> **High-fidelity prototypes** are computer-based, and usually allow realistic (mouse-keyboard) user interactions. High-fidelity prototypes take you as close as possible to a true representation of the user interface. High-fidelity prototypes are assumed to be much more effective in collecting true human performance data (e.g., time to complete a task), and in demonstrating actual products to clients, management, and others.
+
+[Prototyping | Usability.gov](http://www.usability.gov/how-to-and-tools/methods/prototyping.html)
+
+### Papier-Prototyp - Low-Fidelity
+
+-	alles was schnell geht
+-	von sketchy bis akkurat
+-	schnell zu ändern
+-	wirkt nicht wertvoll
+-	schafft keine Distanz
+
+Für die Gruppenkommunikation oft besser:
+
+-	Whiteboard
+-	Overhead-Projektor
+-	Pinwand
+-	Flipchart
+
+### Digitale Prototypen - High- Fidelity
+
+High-Fidelity-Prototypen ermöglichen präzisere Bewertung.
+
+-	Zeitmessung für Interaktionen
+-	Eyetracking, um die Orientierung zu untersuchen
+-	Handhabungsbewertung nach dem 6-Ebenen-Modell
+-	Visuelle Eigenschaften
+	-	Erkennbarkeit
+	-	Lesbarkeit
+	-	Informationsdarstellung
+	-	Informationsfülle
+	-	Chunking
+-	Verständniseigenschaften
+	-	Bezeichnungen
+	-	Texte
+	-	Icons
+-	Designbewertung
+
+### Card Sorting
+
+*"In welchem Menü steckt nochmal...?"*
+
+Card Sorting wird begleitend beim Prototyping durchgeführt. Durchführung:
+
+-	Alle Informations- und Funktionseinheiten auf Karten schreiben
+-	Kategorien auf Karten schreiben, Karten einsortieren lassen
+
+oder
+
+-	oder Karten sortieren lassen, dabei Kategorien benennen lassen
+
+---
+
+Handlungsmodelle - Interaktion begreifen
+========================================
