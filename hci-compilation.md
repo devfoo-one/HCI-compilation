@@ -1701,3 +1701,201 @@ Codierungsform, vor allem zur **Visualisierung** komplexer oder umfangreicher In
 ##### Probleme
 
 -	Manipulationsmöglichkeiten durch Skalierung (z.B. irreführende Diagrammachsen)
+
+---
+
+Normen
+======
+
+DIN-EN-ISO 9241
+---------------
+
+### Teil 2 "Anforderungen an die Arbeitsaufgaben - Leitsätze"
+
+> "Das allgemeine Ziel, ergonomische Grundsätze in der Arbeitsgestaltung zu berücksichtigen, ist es, optimale Arbeitsbedingungen in Bezug auf das Wohlbefinden, die Sicherheit und die Gesundheit der Menschen zu schaffen."
+
+#### Humankriterien
+
+-	**Benutzerorientierung**
+	-	**Vermeidung von psychischer Belastung durch Unter- oder Überforderung**
+	-	Anpassung an Benutzerklassen
+	-	Individualisierungskonzepte
+	-	Qualifizierung
+-	**Anforderungsvielfalt**
+	-	erhält die geistige Beweglichkeit, **vermeidet Monotonieeffekte**
+	-	Anwendung einer angemessenen Vielfalt von Kenntnissen, Fähigkeiten und Fertigkeiten
+	-	Abwechslung von Konzentration und Routine, Bildschirm- und Papierarbeit
+-	**Ganzheitlichkeit und Bedeutsamkeit**
+	-	**erhält psychisches Wohlbefinden und Motivation**
+	-	eigenständige Arbeit von der Planung bis zur Überprüfung
+	-	Sinn und Zweck der Arbeit im Gesamtkontext erkennbar
+	-	Umsetzung von allgemeinen Vorgaben in Arbeitsschritte
+-	**Handlungsspielräume**
+	-	**reduziert Stress**
+	-	Freiheiten in Reihenfolge, Vorgehensweise und Tempo
+	-	Selbstorganisation und -regulation
+-	**Rückmeldungen**
+	-	Durch Software und Kollegen
+	-	Gestaltung von Software-Rückmeldungen unterstützend
+-	**Entwicklungsmöglichkeiten**
+	-	Erweiterung der Qualifikation
+	-	Möglichkeiten zum Weiterlernen
+	-	Qualifikation anstelle von Unter- oder Überforderung
+
+### Teil 110 "Grundsätze der Dialoggestaltung"
+
+#### Gestaltungskriterien nach ISO 9241-110
+
+1.	**Aufgabenangemessenheit**
+2.	**Selbstbeschreibungsfähigkeit**
+3.	**Steuerbarkeit**
+4.	**Erwartungskonformität**
+5.	**Fehlertoleranz**
+6.	**Individualisierbarkeit**
+7.	**Lernförderlichkeit**
+
+##### 1. Aufgabenangemessenheit
+
+> "Ein Dialog ist aufgabenangemessen, wenn er den Benutzer darin unterstützt, seine Arbeitsaufgbe effektiv und effizient zu erledigen."
+
+-	keine unnötigen Pflichtangaben im Formular
+-	geeignet vorausgewählte Knöpfe und Auswahlen
+-	Auto-Vervollständigen
+-	Minimale Ladezeit für Grafiken
+-	Bei Eingabefehlern Cursor an der zu korrigierenden Stelle
+-	Erhalt der Einträge bei Such- oder Auswahldialogen
+-	Erhalt der Zwischenergebnisse während Online-Transaktion
+-	Shortcuts zu den wichtigsten Aktionen
+-	Fachgerechte Eingabeformate und Feedbacks
+-	keine nicht fachlich begründeten Aktionen (interne Aufgaben, Bedienungsaufgaben)
+
+###### Negativbeispiel Aufgabenangemessenheit
+
+Die Reihenfolge der Formularfelder zur Erfassung einer Postadresse wiederspricht der üblichen Erfassung und Benutzung als Postadresse. Reihenfolge vertauscht, z.B. Name, Vorname, Ort, Straße, Hausnummer, PLZ, Land
+
+##### 2. Selbstbeschreibungsfähigkeit
+
+> "Ein Dialog ist selbstbeschreibungsfähig, wenn jeder einzelne Dialogschritt durch Rückmeldung des Dialogsystems unmittelbar verständlich ist oder dem Benutzer auf Anfrage erklärt wird."
+
+-	Hilfesystem mit Suchfunktion
+-	Einführungen / Tutorials
+-	Icons, Menüpunkte und Kommandos im Fachkontext unmittelbar (intuitiv) verstehbar, oder Hilfe direkt angeboten (Tool-Tip-Text. kontextsensitive Hilfe)
+-	Ziele von Links vorhersagbar formuliert
+-	Erläuternde Links zu komplizierten Fehlermeldungen
+-	Feedback bei länger dauernden Operationen
+-	Status verborgener Information erkennbar oder abrufbar (z.B.Umfang einer Treffer-Liste am Tabellenanfang ablesbar)
+
+###### Beispiele Selbstbeschreibungsfähigkeit
+
+-	**positiv**
+	-	Meldung statt Sanduhr
+	-	Tooltip-Hilfe
+-	**negativ**
+	-	Formular - Datumseingabe, Angabe zum Datumsformat fehlt
+	-	Links unterscheiden sich schlecht vom Text
+
+##### 3. Steuerbarkeit
+
+> "Ein Dialog ist steuerbar, wenn der Benutzer in der Lage ist, den Dialogablauf zu starten sowie seine Richtung und Geschwindigkeit zu beeinflussen, bis das Ziel erreicht ist."
+
+-	Dialogteile in unabhägigen, frei ansteuerbaren Fenstern
+-	Freie Wahl zwischen verschiedenen Ein- und Ausgabegeräten
+-	Konfigurierung der Anzeige von Ein- und Ausgabedaten
+-	Tastensteuerung als Alternative zur Maus
+-	Unterbrechen und Wiederaufnehmen des Dialogs
+-	Freie Wahl zwischen alternativen Arbeitswegen
+-	Beliebig lange Reaktionszeit auf modale Dialoge
+-	Rücksetzmöglichkeit für alle Interaktionen
+
+##### 4. Erwartungskonformität
+
+> "Ein Dialog ist erwartungskonform, wenn er konsistent ist und den Merkmalen des Benutzers entspricht, z.B. seinen Kenntnissen aus dem Arbeitsgebiet, seiner Ausbildung und seiner Erfahrung sowie den allgemein anerkannten Konventionen."
+
+-	Der Link zur Startseite ist unter dem Firmenlogo oben links platziert.
+-	Unterstrichene Wörter sind immer Hypertext-Links.
+-	Beim Drücken der Tabulator-Taste springt der Cursor auf das nächste Eingabefeld
+-	F1 ruft die Hilfefunktion auf
+-	Der Tabulator in einem Textprogramm ist am Linealsymbol verschiebbar
+-	Beim Speichern ohne Zielangabe entsteht eine Datei am als Standard voreingestellten Ort
+-	Ctrl-S bedeutet speichern
+
+###### Äußere und innere Konsistenz
+
+-	bekannte Symbole in überlicher Weise einsetzen
+	-	Diskette - Save
+	-	Dreieck - Play
+-	eigene Symbole mit gleichbleibender Bedeutung einsetzen
+
+###### metaphorische Konsistenz
+
+Bei der Verwendung von Metaphern im konzeptuellen Modell sollen die Aktionsmöglichkeiten auf Metaphern-Ebene mit der Realwelt konsistent sein. Beispiele:
+
+-	Papierkorb - ausleeren
+-	Mail (Briefsymbol) - versenden, öffnen, Anhang hinzufügen
+
+###### Negativbeispiel WinZip
+
+Der Befehl zum Komprimieren lautet "Neu". (Es wird gemeint ein neues Archiv anzulegen.)
+
+##### 5. Fehlertoleranz
+
+> "Ein Dialog ist fehlertolerant, wenn das beabsichtigte Arbeitsergebnis trotz erkennbar fehlerhafter Eingaben entweder mit keinem oder mit minimalem Korrekturaufwand seitens des Benutzers erreicht werden kann."
+
+-	Bei Fehlerhaften Eingaben erscheint eine verstehbare Fehlermeldung, ggf. mit Reparaturhinweis oder -angebot
+-	Beim Rückwärtsbrowsen in einer Web-Applikation mit der Back-Taste wird die Information immer aktualisiert
+-	Fehlermeldungen werden nicht technisch verklausuliert oder als Nummer angezeigt, sondern in der Sprache der Benutzer formuliert.
+-	Warnhinweise werden deutlich von Fehlermeldungen unterschieden
+-	Es wird klar kommuniziert, ob und welche Systemänderung die fehlerhafte Eingabe bewirkt hat.
+
+##### 6. Individualisierbarkeit
+
+> "Ein Dialog ist individualisierbar, wenn das Dialogsystem Anpassungen an die Erfordernisse der Arbeitsaufgabe sowie an die individuellen Fähigkeiten und Vorlieben des Benutzers zuläßt."
+
+-	Die Sprache der Benutzeroberfläche ist wählbar
+-	Auswahl zwischen Assistenten- und Expertenmodus
+-	Vorausgefüllte Webformulare aufgrund des Benutzerprofils
+-	Auf der Startseite einer Website besteht die Möglichkeit, eine HTML- oder Flash-Version anzuwählen und zu bookmarken.
+-	Erstellung von Makros, ggf. per Aufzeichnung
+-	Freie Umgruppierung der Menüs und Werkzeugleisten
+
+##### 7. Lernförderlichkeit
+
+> "Ein Dialog ist lernförderlich, wenn er den Benutzer beim Erlernen des Dialogsystems unterstützt und anleitet."
+
+-	Es gibt eine Anleitung für die ersten Schritte und eine Beispielanwendung.
+-	In einer "Guided Tour" werden die Benutzer mit besonderen Tricks in der Bedienung einer Applikation vertraut gemacht.
+-	Beim Starten der Anwendung werden Tipps eingeblendet.
+-	Im Buchungs-System eines Reiseanbieters besteht die Möglichkeit eine Probebuchung vorzunehmen.
+-	In einer Sitemap kann man sich ansehen, nach welcher Logik eine Website strukturiert ist.
+-	Es gibt Feedback zur Vereinfachung häufig angewendeter Befehle.
+
+### Teil 171 "Leitlinien für die Zugänglichkeit von Software"
+
+-	**Prinzip 1 – Wahrnehmbarkeit**
+-	**Prinzip 2 – Bedienbarkeit**
+-	**Prinzip 3 – Verständlichkeit**
+-	**Prinzip 4 – Robustheit**
+
+### Teil 210 "Benutzerorientierte Gestaltung interaktiver Systeme" (ehem. 13407)
+
+-	Vorgehensweise bei der Gestaltung
+-	Einbeziehung vieler Fachpersonen
+	-	Endbenutzer, Einkäufer, Führungskräfte, Systemanalytiker, Programmierer...
+-	**Usabilty-Engineering-Zyklus**
+	-	**Anforderungen** aus Nutzungszweck und -kontext erfassen
+	-	**Anforderungen** der Benutzergruppen erfassen
+	-	**Gesamtlösungen** entwerfen
+	-	Lösungsentwürfe gegenüber Anforderungen **evaluieren**
+	-	**Iterieren**, bis das Evaluationsziel erreicht ist.
+
+Shneidermanns Goldene Regeln des Dialogentwurfs
+-----------------------------------------------
+
+1.	Versuche Konsistenz zu erreichen.
+2.	Biete erfahrenen Benutzern Abkürzungen an.
+3.	Biete informatives Feedback.
+4.	Dialoge sollten abgeschlossen sein.
+5.	Biete einfache Fehlerbehandlung.
+6.	Biete einfache Rücksetzmöglichkeiten.
+7.	Unterstütze benutzergesteuerten Dialog.
+8.	Reduziere die Belastung des Kurzzeitgedächtnisses.
