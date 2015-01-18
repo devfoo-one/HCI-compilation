@@ -4,9 +4,9 @@ HCI Compilation
 Begriffe
 ========
 
-**Affordanz** = *"...ist die von einem Gegenstand – offensichtlich vorhandene oder tatsächlich gegebene – angebotene Gebrauchseigenschaft für Subjekte (Mensch oder Tier)..."* [wikipedia](http://de.wikipedia.org/wiki/Angebotscharakter). Allein durch die Formsprache wird klar, welches Bedienelement wie zu benutzen ist.
+**Affordanz** = *"...ist die von einem Gegenstand – offensichtlich vorhandene oder tatsächlich gegebene – angebotene Gebrauchseigenschaft für Subjekte (Mensch oder Tier)..."* - [wikipedia](http://de.wikipedia.org/wiki/Angebotscharakter). Allein durch die Formsprache wird klar, welches Bedienelement wie zu benutzen ist.
 
-**Chunking** = Aufteilung der Informationen in (7-er) Blöcke (7 wegen KZG)
+**Chunking** = Aufteilung der Informationen in (7-er) Blöcke (7 zur KZG-Entlastung)
 
 **Effizienz** = Möglichst geringe Anzahl an Interaktionen, ressourcenschonend (z.B. Zeit)
 
@@ -20,7 +20,7 @@ Begriffe
 
 **Modalität** = Ein Modus ist eine Einstellung die die Bedeutung von Kommandos verändert.
 
-**Semantik** = TODO: FILL ME
+**Semantik** = *"...nennt man die Theorie oder Wissenschaft von der Bedeutung der Zeichen. Zeichen können in diesem Fall Wörter, Phrasen oder Symbole sein"* - [wikipedia](http://de.wikipedia.org/wiki/Semantik)
 
 **Skeuomorphismus** = Imitation realer Objekte (-> Metaphern)
 
@@ -1301,5 +1301,118 @@ oder
 
 ---
 
-Handlungsmodelle - Interaktion begreifen
-========================================
+Prozess- und Handlungsmodelle
+=============================
+
+Überblick
+---------
+
+Modelle über das **wie** der Arbeit. Ziel: Die Arbeit soll **leicht** zu erledigen sein.
+
+**Hintergrund**
+
+-	Lern- und Verhaltenstheorie
+-	Arbeitstheorie
+-	Kybernetik
+
+### Modellierung des Handlungsablaufs
+
+#### Definitionen
+
+##### Handlung
+
+*Eine Handlung ist die kleinste Einheit des Verhaltens in Bezug auf ein bewusstes Ziel.*
+
+##### Kontrollierter Prozess
+
+*Ein kontrollierter Prozess wird **bewusst** durchgeführt und benötigt daher **Aufmerksamkeit** und verwendet das **Kurzzeitgedächtnis**.*
+
+-	koginitive Arbeit
+-	keine Parallelität
+-	variabel und anpassbar
+
+##### Automatisierter Prozess
+
+*Ein automatisierter Prozess wird **nicht bewusst** gesteuert und benötigt daher **keine Aufmerksamkeit** und kann daher **parallel** zu weiteren Handlungen ausgeführt werden.*
+
+-	keine koginitive Arbeit
+-	parallel "im Hintergrund"
+-	kaum anpassbar
+
+##### Fehler
+
+*Fehler sind die nicht-Übereinstimmung zwischen dem Ziel des Benutzers und der Reaktion des Systems.*
+
+#### 3 Ebenen der Schwierigkeit
+
+-	**Verständnis -> mentale Modelle**
+-	**Ablaufsteuerung -> Prozessmodelle**
+-	**Handhabung -> Handlungsmodelle**
+
+##### Mentale Modelle
+
+Siehe Modell-Inkompatibilitäten bei mentalen Modellen
+
+##### Prozessmodelle
+
+-	kognitiver Aufwand der Prozesssteuerung
+-	**Fehlerquellen**
+
+##### Handlungsmodelle
+
+-	**Aufwand**, intellektuell und manuell / sensorisch
+-	Zerlegung, von der Idee bis zur Durchführung und Bewertung
+-	dargesellt als "Abstand"
+
+Modelltypen
+-----------
+
+### Allgemeines Modell des Handlungsprozesses
+
+![Allgemeines Modell des Handlungsprozess](img/handlungsprozess_allgemein_1.jpg)
+
+### Modell des regulierten Handlungsprozesses (kybernetisches Modell)
+
+![Modell des regulierten Handlungsprozesses](img/handlungsprozess_reguliert_1.jpg)
+
+#### Handlungsregulation
+
+-	**bewusste** Regulation (kognitiv)
+-	**automatisierte Regulation** (sensomotorisch)
+-	**flexible** Regulation (situationsbezogen kombiniert)
+
+Fehler beeinträchtigen die Zufriedenheit des Benutzers. Ziel ist **Fehlervermeidung**. Fehlerebenen:
+
+-	leicht (Ziel bleibt erreichbar)
+-	schwer (Ziel verfehlt)
+
+##### Fehler bei bewusster Regulation
+
+-	**Planungsphase (Ziel-Planung)**
+	-	Denkfehler
+-	**Durchführungsphase**
+	-	Merkfehler / Gedächtnisfehler
+-	**Beurteilungsphase**
+	-	Interpretationsfehler
+
+##### Fehler bei automatisierter Regulation
+
+-	Fehler im Bewegungsablauf ("Danebentippen")
+-	Planung-Durchführung-Beurteilung nicht differenzierbar
+
+##### Fehler bei flexibler Regulation
+
+-	**Planungsphase (Ziel-Planung)**
+	-	Gewohnheitsfehler / "Betriebsblindheit"
+-	**Durchführungsphase**
+	-	Unterlassensfehler / Übereile
+-	**Beurteilungsphase**
+	-	Erkennensfehler
+
+### Modell der Klüfte (oder Transformationsdistanzen)
+
+### Modell der 7 Handlungsschritte (Norman)
+
+### IFIP-Modell
+
+### Das 6-Ebenen-Handlungs-Modell (nach M.Herczeg)
