@@ -41,6 +41,8 @@ zu erreichen."
 
 Ziel ist eine **effektive und effiziente** Interaktion.
 
+![Gebrauchstauglichkeit](img/gebrauchstauglichkeit.jpg)
+
 Kriterien
 ---------
 
@@ -400,33 +402,33 @@ Evaluationstechniken
 
 ### Überblick
 
--	Theoriebasierte Evaluation
+#### Theoriebasierte Evaluation
 
-	-	Informationsanalyse
-		-	Dokumentenanalyse
-			-	Styleguides, Schulungs- und Marketingmaterialien
-			-	Supporttickets und -protokolle
-		-	Datenanalyse
-			-	Logdateien
-			-	Clickstreams
-			-	Eyetracking-Protokolle
-	-	Expertengutachten *(deutlich günstiger als Benutzerevaluation)*
-		-	Heuristische Evaluation
-		-	Cognitive Walkthrough
+-	**Informationsanalyse**
+	-	Dokumentenanalyse
+		-	Styleguides, Schulungs- und Marketingmaterialien
+		-	Supporttickets und -protokolle
+	-	Datenanalyse
+		-	Logdateien
+		-	Clickstreams
+		-	Eyetracking-Protokolle
+-	**Expertengutachten** *(deutlich günstiger als Benutzerevaluation)*
+	-	Heuristische Evaluation
+	-	Cognitive Walkthrough
 
--	Benutzerbasierte Evaluation
+#### Benutzerbasierte Evaluation
 
-	-	Befragung
-		-	Umfrage
-		-	Interview
-	-	Usability-Test (im Labor)
-		-	Videoaufzeichnung
-		-	Logging
-		-	Eyetracking
-		-	Think-Aloud
-	-	Beobachtung (vor Ort)
-		-	(Feld-)Studie
-		-	Ethnographie
+-	**Befragung**
+	-	Umfrage
+	-	Interview
+-	**Usability-Test (im Labor)**
+	-	Videoaufzeichnung
+	-	Logging
+	-	Eyetracking
+	-	Think-Aloud
+-	**Beobachtung (vor Ort)**
+	-	(Feld-)Studie
+	-	Ethnographie
 
 ### Heuristische Evaluation (nach Nielsen)
 
@@ -1899,3 +1901,276 @@ Shneidermanns Goldene Regeln des Dialogentwurfs
 6.	Biete einfache Rücksetzmöglichkeiten.
 7.	Unterstütze benutzergesteuerten Dialog.
 8.	Reduziere die Belastung des Kurzzeitgedächtnisses.
+
+---
+
+Barrierefreiheit
+================
+
+BITV
+----
+
+*Barrierefreie Informationstechnik-Verordnung*
+
+-	seit 2002
+-	Vorschrift für öffentliche Internetauftritte der Bundesbehörden
+-	barrierefreie Technik, v.a. für Sehbehinderte und Blinde
+-	**technisch genau beschrieben,** daher auch als Handbuch für Barrierefreiheit geeignet
+
+### Die wichtigsten Grundforderungen der BITV
+
+-	Schriftgröße einstellbar
+-	Hintergrund ausblendbar
+-	Semantische Auszeichnung
+-	Tabellen nur für tabellierte Inhalte (nicht fürs Layout)
+-	Text-Äquivalent für jedes Nicht-Text-Element
+
+Nutzungsbarrieren
+-----------------
+
+### Barrieren für blinde Nutzer
+
+#### Barrieren
+
+-	Inhalte in Bild- oder Grafikform
+-	Bilder zur Navigation
+-	schlecht beschriftete Links (mehr...) und Formulare
+-	Schlecht serialisierbare Struktur(Tabellen, Frames)
+-	Strukturierung mit grafischen Elementen (Schriftgrößen)
+-	Layout mithilfe unsichtbarer Elemente (Bilder)
+
+#### Hilfen
+
+-	Inhaltliche Gliederung (Überschriften-Tags)
+-	Texthinterlegung für alle Bilder sezifiziert, ob Dekoration, Navigation oder Inhalt (longdesc- Attribut)
+-	kontextfrei benannte Links
+-	gut beschriftete Formulare
+-	Tabellen links->rechts oben->unten verstehbar
+
+### Barrieren für sehbehinderte Nutzer
+
+#### Barrieren
+
+-	Seiten mit fester Größe (Teile verschwinden bei kl. Auflösung)
+-	feste Schriftgrößen (nicht durch Browser / Grafiktreiber verstellbar)
+-	Seiten mit fester Positionierung (Verschieben bei Schriftvergrößerung)
+-	Hintergrundbilder
+-	Blinkende und animierte Bilder
+-	Farbschrift und geringer Kontrast
+
+#### Hilfen
+
+-	variable Seitengröße
+-	relative Schriftgrößen, Vergrößerungsoption
+-	Hintergrundbilder und Dekoration ausblendbar
+-	Kontrasterhöhung durch Umstellung auf Schwarz-Weiß
+
+### Barrieren für gehörlose Nutzer
+
+#### Barrieren
+
+-	Wichtige Information in Audio- und vertontem Video
+-	Komplexe Satzstrukturen
+	-	bei von Kindheit an Gehörlosen ist Gebärdensprache die Muttersprache. Schriftsprache ist eine Fremdsprache
+-	unbekannte Begriffe
+
+#### Hilfen
+
+-	Untertitel zu Audio und Video (auch die Info, dass ohne Ton)
+-	Gebärdensprach-Videos als Ergänzung
+
+### Barrieren für Benutzer mit Lernschwierigkeiten
+
+#### Barrieren
+
+-	Seitenfülle
+-	große Textblöcke, schwierige Sprache
+-	innovatives Layout
+-	unvertraute Bedienung
+-	Fremdsprache
+-	Popups und Animationen
+
+#### Hilfen
+
+-	**minimalistisches Design**
+-	**Affordanz**
+-	klare Navigation
+-	einfache Sprache
+-	konsequente Einsprachigkeit
+
+### Barrieren für ältere Benutzer
+
+#### Barrieren
+
+-	Kontrastarme kleine Schrift
+-	kleinschrittige Mausbewegungen
+-	Fachjargon
+-	Anwendungen, die installiert werden müssen (Flash)
+-	unbekannte Dateiformate (mpeg4, owr, ..)
+
+#### Hilfen
+
+-	Schriftvergrößerungs-Option
+-	Tastennavigation
+-	Textalternativen zu Filmen etc.
+-	konsequente Einsprachigkeit
+
+Barrierefreie Seitengestaltung
+------------------------------
+
+### Grundlagen
+
+-	Zugangsmöglichkeiten mit Hilfsmitteln oder unterstützenden Geräteeinstellungen
+-	Englisch: Accessability
+-	Regelwerk
+	-	WCAG2.0 des W3C
+	-	weitestgehend übernommen in ISO 9241-171
+
+#### Barrierefreiheit - technisch und inhaltlich
+
+-	**technisch**
+	-	hilfsmittelgerechte Gestaltung
+	-	hilfsmittelkompatible Techniken für Webseiten und Anwendungssoftware
+-	**inhaltlich**
+	-	Verstehbarkeit auch mit Hilfsmitteln
+	-	Anpassung an Benutzer mit besonderen Einschränkungen und Bedürfnissen
+
+### Prinzipien des WCAG
+
+*"Web Content Accessability Guide" - des W3C*
+
+-	**Prinzip 1 – Wahrnehmbarkeit**
+-	**Prinzip 2 – Bedienbarkeit**
+-	**Prinzip 3 – Verständlichkeit**
+-	**Prinzip 4 – Robustheit**
+
+#### Prinzip 1 – Wahrnehmbarkeit
+
+*Informationen und Bestandteile der Benutzerschnittstelle müssen den Benutzern so präsentiert werden, dass diese sie wahrnehmen können.*
+
+-	**Textalternativen** zu Audio- und Bildinformationen
+-	**Medienalternativen** und Stauerbarkeit zeitbasierter Medien
+-	**Anpassbarkeit** der Darstellung
+-	**Unterscheidbare Inhalte**
+
+#### Prinzip 2 – Bedienbarkeit
+
+*Bestandteile der Benutzerschnittstelle und Navigation müssen bedienbar sein*
+
+-	Bedienbarkeit per **Tastatur**
+-	Steuerung des Zeitverhaltens
+	-	Tempo, Pausen, ...
+-	keine **anfallsauslösenden Elemente**
+	-	hektische Animationen, Lichtblitze, ...
+-	**freie Navigierbarkeit** auch mit Hilfsmitteln
+	-	semantische Auszeichnung
+	-	Tastaturnavigation, überspringbare Blöcke
+
+#### Prinzip 3 – Verständlichkeit
+
+*Informationen und Bedienung der Benutzerschnittstelle müssen verständlich sein.*
+
+-	**Lesbarkeit**
+	-	Sprache, Sprachniveau, Abkürzungen, Aussprache
+-	**Linearisierbarkeit**
+	-	inhaltliche Linearisierungsreihenfolge
+-	**Vorhersehbarkeit**
+	-	erwartungskonforme Fokusauswahl und Navigation
+	-	aussagekräftige Link-Beschriftungen und Alternativtexte
+-	**Hilfestellung bei Eingabe**
+	-	Beschriftungen und Hilfe
+		-	z.B. durch Tooltips
+	-	Fehlererkennung und -vermeidung
+
+#### Prinzip 4 – Robustheit
+
+*Inhalte müssen robust genug sein, damit sie zuverlässig von einer großen Auswahl an Benutzeragenten einschließlich assistierender Techniken interpretiert werden können.*
+
+-	valide Auszeichnung
+-	Plattform-Kompatibilität
+
+### technische Anforderungen der Barrierefreiheit
+
+-	**für sehbehinderte Nutzer**
+	-	**Skalierbarkeit**
+		-	Schriftvergrößerung / Auflösungsveränderung
+		-	Bildschirmlupe
+	-	**grafische Reduzierbarkeit**
+		-	Ausblenden von Farbflächen, Hintergrund- und Dekorationsbildern
+-	**für blinde Nutzer**
+	-	**Linearisierbarkeit**
+		-	Screenreader und Braillezeile
+		-	Inhalt des Dokuments verstehbar **gliedern**
+	-	**Navigationsunterstützung**
+		-	Tastaturnavigation innerhalb der Seite
+		-	Semantische Navigationsreihenfolge
+	-	**Objektlesbarkeit**
+		-	Objektart, Wert, Zustand
+	-	**Änderungs-Erkennung**
+
+#### hilfsmittelgerechte Gestaltung
+
+#### Webseiten
+
+-	valides HTML
+-	semantische Auszeichnung
+-	Layout und Dekor nur durch CSS
+-	relative Größenangaben
+
+#### Rich Internet Applications
+
+##### WAI-ARIA Auszeichnung
+
+*Web Accessibility Initiative - Accessible Rich Internet Applications specification*
+
+-	**Zusätzliche Auszeichnungsmöglichkeiten für beliebige sichtbare Elemente**
+	-	Fokusbehandlung, Rollen, Zustände und Eigenschaften
+	-	von Hilfsmitteln interpretiert
+	-	von Browsern ignoriert
+	-	**problemlos einsetzbar**
+
+###### ARIA Rollen
+
+Rollen bezeichnen die Bedeutung sichtbarer Elemente z.B. `<div role="banner">...</div>`
+
+-	Widgets
+	-	alert, alertdiaolg, button, checkbox, gridcell, link, menuitem, ...
+-	Composite Widgets
+	-	Combobox, grid, listbox, menu, radiogroup, tablist, tree, ...
+-	Document Structure
+	-	Article, columnheader, definition, directory, heading, list, ...
+-	Document Landmarks
+	-	application, banner, complementary, contentinfo, main, navigation, search, math,...
+
+Zustände und Eigenschaften machen visualisierte Eigenschaften für Hilfsmittel zugänglich
+
+```
+aria-valuenow
+aria-valuemax
+aria-valuemin
+aria-valuetext
+aria-labelledby
+aria-describedby
+...
+```
+
+**Beispiel Slider**
+
+```html
+<input type="image"
+	src="thumb.gif"
+	alt="Effectiveness"
+	role="slider"
+	aria-valuemin="0"
+	aria-valuemax="100"
+	aria-valuenow="42"
+	aria-valuetext="42 percent"
+	aria-labelledby="leffective">
+```
+
+Berechnung von `aria-valuenow` kann via Javascript erfolgen.
+
+#### Software
+
+-	Hilfsmittel erwarten Accessibility-APIs
+-	müssen von der GUI-Technologie implementiert werden
