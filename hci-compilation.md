@@ -1746,7 +1746,7 @@ DIN-EN-ISO 9241
 	-	Möglichkeiten zum Weiterlernen
 	-	Qualifikation anstelle von Unter- oder Überforderung
 
-### Teil 110 "Grundsätze der Dialoggestaltung"
+### Teil 110 "Grundsätze der Dialoggestaltung" (ASSEFIL)
 
 #### Gestaltungskriterien nach ISO 9241-110
 
