@@ -16,7 +16,7 @@ Begriffe
 
 **HCI** = Die Lehre von der Qualität der Schnittstelle zwischen Mensch und interaktivem Gerät
 
-**Heuristiken** = "Faustregeln" Werden dort eingesetzt, wo eine komplette Analyse zu aufwändig wäre.
+**Heuristiken** = "Faustregeln", werden dort eingesetzt, wo eine komplette Analyse zu aufwändig wäre.
 
 **Kognition** = menschliche Informationsverarbeitung (Erkennen, Durchdenken, Anwenden...)
 
@@ -287,6 +287,8 @@ Usability-Engineering-Zyklus
 -	Lösungsentwürfe gegenüber Anforderungen **evaluieren**
 -	**Iterieren**, bis das Evaluationsziel erreicht ist.
 
+> "...Der Kern des Ganzen ist dass es Lösungsansätze gibt, welche evaluiert werden..."
+
 ![](img/ue_phasen2.jpg)
 
 Phasen des Usability Engineering
@@ -404,7 +406,9 @@ Evaluationstechniken
 
 ### Überblick
 
-#### Theoriebasierte Evaluation
+> "... wenn mehr als zwei Evaluationsverfahren im Budget sind, sollte jeweils ein benutzerbasiertes und ein expertenbasiertes gewählt werden..."
+
+#### Theoriebasierte Evaluation (Expertenevaluation)
 
 -	**Informationsanalyse**
 	-	Dokumentenanalyse
@@ -431,6 +435,7 @@ Evaluationstechniken
 -	**Beobachtung (vor Ort)**
 	-	(Feld-)Studie
 	-	Ethnographie
+	-	erst nach Implementation durchführbar, nicht auf Prototypen
 
 ### Heuristische Evaluation (nach Nielsen)
 
@@ -730,9 +735,9 @@ diese Schlüssel sind, desto besser lassen sich die verknüpften Informationen a
 
 Aktive Suche nach Assoziationen.
 
-###### Recognition
+###### Recognition (Wiedererkennen)
 
-(Re-)Aktivierung von Assoziationen.
+(Re-)Aktivierung von Assoziationen. **Recognition (Wiedererkennen) ist einfacher als Recall, weil hier einfachere Zugangsschlüssel auf die Informationen vorhanden sind (oder so ähnlich)**
 
 ##### ACT-Modell
 
@@ -1098,7 +1103,7 @@ GUI Entwurf
 		-	Bedeutung der Bedienelemente und Icons
 -	**Sichtbarkeit** des Systemzustands
 -	**Affordanz** der Bedienelemente
--	Nicht-Modalität
+-	**Nicht-Modalität**
 -	**minimalistisches** Design
 	-	je einfacher ein GUI desto
 		-	*einladender*
@@ -1107,9 +1112,13 @@ GUI Entwurf
 		-	*unmittelbarer*
 		-	*brauchbarer* wirkt es auf den Benutzer
 -	**Strukturiertheit**
-	-	Strukturrierung durch visuelle Grundparameter
+	-	Strukturierung durch visuelle Grundparameter
 	-	Symmetrie, bekannte Strukturen, Gitter und Raster
 	-	Semantische Struktur
+	-	warum Strukturiertheit?
+		-	man erkennt die Hauptstruktur, die Bereiche der Anwendung
+		-	Struktur macht Chunking erst möglich
+		-	Entlastung des KZG
 -	**einheitliche Semiotik**
 	-	Sprache der Sinnbilder wie z.B. Icons, Navigationssymbole
 	-	Auswahl der Gestaltungsform (Strichzeichnung, Farbgrafik, Foto)
@@ -1169,6 +1178,16 @@ Viele Computerspiele beziehen ihren Reiz daraus, dass der Spieler die richtige A
 -	**Modi sind fehlerträchtig**
 	-	Quasi-Modi sind besser
 	-	zur Vermeidung von Fehlern **Status auffällig visualisieren**
+
+#### Minimalismus
+
+-	geringe Anzahl an Gestaltungselementen
+-	wenige, ausgewählte Schriften
+-	Großzügiger Einsatz von Weißraum
+-	Wenig Farben
+-	Anordnung der Elemente nach dem Rasterprinzip
+-	weitgehender Verzicht auf Fotos
+-	Verzicht auf Effekte wie Dreidimensionalität oder Farbverläufe
 
 #### Umsetzung von Strukturiertheit
 
@@ -1384,8 +1403,11 @@ Modelltypen
 #### Handlungsregulation
 
 -	**bewusste** Regulation (kognitiv)
+	-	Fehler hierbei z.B. *"falsch verstanden"*
 -	**automatisierte Regulation** (sensomotorisch)
+	-	Fehler hierbei z.B. *"daneben getroffen"*
 -	**flexible** Regulation (situationsbezogen kombiniert)
+	-	Fehler hierbei z.B. *"Sonderfall nicht erkannt"*
 
 Fehler beeinträchtigen die Zufriedenheit des Benutzers. Ziel ist **Fehlervermeidung**. Fehlerebenen:
 
@@ -1633,6 +1655,38 @@ WIMP Paradigma
 -	**About-Boxen und Splash Screens**
 -	**Werkzeugleisten**
 -	**Hilfemenüs**
+
+### Ergonomie-Regeln für Menüs
+
+-	Kaskadierung vermeiden
+-	Gruppierung nach Chunking-Regeln
+-	Alle Shortcut-Möglichkeiten anbieten
+-	nicht verfügbare Optionen ausgrauen
+-	...
+
+### Ergonomie-Regeln für Widgets
+
+-	Allgemein
+	-	Gruppierung, Chunking
+	-	Ausrichtung
+-	Toggles
+	-	Beschriftung muss Zustand und Folgezustand ausweisen
+	-	Ersatz durch Radio-Buttons, wo möglich (Platz)
+-	Werteingaben
+	-	Affordanz!
+-	Texteingaben
+	-	Autocomplete wo möglich!
+
+### Ergonomie-Regeln für Dialogfenster
+
+-	einheitliche Gestaltung
+-	minimaler, unmittelbar verständlicher Text (Stresssituation)
+	-	kurze, informative Meldungen
+	-	Problem klar benennen, Lösung anbieten
+	-	Eindeutige Frage stellen
+-	Kaskadierung vermeiden
+-	verschiebbar
+-	möglichst nur applikations-modal (nicht system-modal)
 
 ---
 
